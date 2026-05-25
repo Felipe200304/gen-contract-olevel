@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EVNTUM — Gerador de Contrato por Franqueado
 
-## Getting Started
+Ferramenta interna para preencher dinamicamente o contrato de licença do software **EVNTUM** com os dados de cada franqueado e gerar o **PDF** pronto para assinatura.
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Next.js 16 (App Router) + React 19 + TypeScript
+- Tailwind v4 + shadcn/ui
+- Validação: react-hook-form + zod
+- PDF: markdown-it (md → HTML) + Puppeteer (HTML → PDF, A4)
+
+## Como funciona
+
+```
+templates/contrato.source.md    contrato-fonte (cópia do contrato oficial)
+        │  scripts/build-template.mjs  (tokeniza placeholders e opções)
+        ▼
+templates/contrato.template.md  template com {{tokens}}
+        │  lib/fill.ts           (preenche tokens + checkboxes derivados)
+        ▼
+markdown preenchido → lib/render.ts (HTML + CSS impressão → Puppeteer) → PDF
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A API `POST /api/generate` recebe o JSON do formulário, valida (zod), preenche e devolve o PDF.
+Use `?format=md` para inspecionar o markdown preenchido (preview/debug).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Rodar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
 
-## Learn More
+## Atualizar o contrato
 
-To learn more about Next.js, take a look at the following resources:
+Se o contrato oficial mudar:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+cp ../contrato-evntum-arquitetos-pizza.md templates/contrato.source.md
+node scripts/build-template.mjs   # regenera o template e valida placeholders
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O script avisa se sobrar algum placeholder `[..]` não mapeado.
 
-## Deploy on Vercel
+## Campos derivados (automáticos)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Taxa de Setup**: isenta se a assinatura for até 30/06/2026, senão R$ 589,90 (Cláusula 6.10).
+- **Checkboxes** de categoria, suporte e API oficial: marcados conforme o formulário.
+- **Primeira mensalidade**: fixa em 08/06/2026 (Cláusula 6.4.1).
+- **Datas**: a data de assinatura vira extenso ("25 de maio de 2026") e numérica.
