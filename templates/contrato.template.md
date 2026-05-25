@@ -1,4 +1,4 @@
-# CONTRATO DE LICENÇA DE USO DE SOFTWARE EM REGIME DE SOFTWARE AS A SERVICE (SaaS), PRESTAÇÃO DE SERVIÇOS CORRELATOS E OUTRAS AVENÇAS
+﻿# CONTRATO DE LICENÇA DE USO DE SOFTWARE EM REGIME DE SOFTWARE AS A SERVICE (SaaS), PRESTAÇÃO DE SERVIÇOS CORRELATOS E OUTRAS AVENÇAS
 
 ---
 
@@ -54,21 +54,19 @@ Sendo a O-LEVEL e o FRANQUEADO, em conjunto, denominados simplesmente **"PARTES"
 
 **1.1.8.** **"API NÃO OFICIAL DO WHATSAPP"**: tecnologia de integração com a plataforma WhatsApp por meio de bibliotecas ou clientes **não homologados oficialmente pela Meta Platforms, Inc.**, sujeita a riscos operacionais conhecidos, incluindo, mas não se limitando a, **bloqueios, suspensões, banimentos, instabilidades e descontinuidade abrupta** por parte da Meta.
 
-**1.1.9.** **"API OFICIAL"** ou **"WHATSAPP BUSINESS PLATFORM (CLOUD API)"**: integração homologada oficialmente pela Meta, com custos adicionais cobrados diretamente pela Meta por conversa iniciada, repassados ao FRANQUEADO conforme Anexo II.
+**1.1.9.** **"DADOS DA CONTRATANTE"**: todos os dados, informações e conteúdos inseridos, gerados, importados ou processados no SOFTWARE pelo FRANQUEADO ou por seus USUÁRIOS.
 
-**1.1.10.** **"DADOS DA CONTRATANTE"**: todos os dados, informações e conteúdos inseridos, gerados, importados ou processados no SOFTWARE pelo FRANQUEADO ou por seus USUÁRIOS.
+**1.1.10.** **"DADOS PESSOAIS"**: termo definido conforme o art. 5º, I, da LGPD.
 
-**1.1.11.** **"DADOS PESSOAIS"**: termo definido conforme o art. 5º, I, da LGPD.
+**1.1.11.** **"INCIDENTE DE SEGURANÇA"**: qualquer evento adverso confirmado, relacionado à violação de segurança que possa acarretar risco ou dano relevante aos titulares de Dados Pessoais, nos termos do art. 48 da LGPD.
 
-**1.1.12.** **"INCIDENTE DE SEGURANÇA"**: qualquer evento adverso confirmado, relacionado à violação de segurança que possa acarretar risco ou dano relevante aos titulares de Dados Pessoais, nos termos do art. 48 da LGPD.
+**1.1.12.** **"DIAS ÚTEIS"**: dias de segunda a sexta-feira, excluídos sábados, domingos e feriados nacionais e da Comarca do Foro de Eleição.
 
-**1.1.13.** **"DIAS ÚTEIS"**: dias de segunda a sexta-feira, excluídos sábados, domingos e feriados nacionais e da Comarca do Foro de Eleição.
+**1.1.13.** **"ORDEM DE SERVIÇO" ou "OS"**: documento escrito, assinado pelas PARTES envolvidas, descrevendo escopo, prazo, custo e condições específicas para automações personalizadas, customizações ou serviços adicionais.
 
-**1.1.14.** **"ORDEM DE SERVIÇO" ou "OS"**: documento escrito, assinado pelas PARTES envolvidas, descrevendo escopo, prazo, custo e condições específicas para automações personalizadas, customizações ou serviços adicionais.
+**1.1.14.** **"TAXA DE SETUP"**: taxa única e não reembolsável devida no ato da assinatura deste CONTRATO pelo FRANQUEADO que o firmar a partir de 01/07/2026, conforme Cláusula 6.10 e Anexo II.
 
-**1.1.15.** **"TAXA DE SETUP"**: taxa única e não reembolsável devida no ato da assinatura deste CONTRATO pelo FRANQUEADO que o firmar a partir de 01/07/2026, conforme Cláusula 6.10 e Anexo II.
-
-**1.1.16.** **"AUDIT TRAIL"**: registro técnico imutável, em modelo append-only, de cada Contrato Emitido, contendo timestamp, hash criptográfico e identificador único, mantido pela O-LEVEL como prova oficial para fins de aferição de categoria e faturamento.
+**1.1.15.** **"AUDIT TRAIL"**: registro técnico imutável, em modelo append-only, de cada Contrato Emitido, contendo timestamp, hash criptográfico e identificador único, mantido pela O-LEVEL como prova oficial para fins de aferição de categoria e faturamento.
 
 ---
 
@@ -98,7 +96,7 @@ Sendo a O-LEVEL e o FRANQUEADO, em conjunto, denominados simplesmente **"PARTES"
 
 3.1. As funcionalidades contratadas estão detalhadamente descritas no **Anexo I - Escopo Técnico**, que integra o presente CONTRATO para todos os fins de direito.
 
-3.2. **AVISO LEGAL DESTACADO - AUTOMAÇÃO DE MENSAGENS VIA WHATSAPP - API NÃO OFICIAL (PADRÃO).**
+3.2. **AVISO LEGAL DESTACADO - AUTOMAÇÃO DE MENSAGENS VIA WHATSAPP - API NÃO OFICIAL.**
 
 > **ATENÇÃO: LEIA COM MÁXIMA ATENÇÃO ANTES DE CONTRATAR.**
 >
@@ -122,19 +120,9 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 3.2.1. **CIÊNCIA EXPRESSA E DECLARAÇÃO.** Ao assinar o presente CONTRATO, em especial a Declaração Específica de Ciência da Cláusula 22ª, o FRANQUEADO declara, de forma expressa, livre, informada e inequívoca, que **leu, compreendeu integralmente e aceita todos os riscos acima descritos**, renunciando, neste ato, a qualquer pretensão de ressarcimento, indenização, abatimento, reembolso, crédito ou rescisão sem ônus em decorrência de tais eventos.
 
-3.2.2. **RECOMENDAÇÃO FORMAL DA O-LEVEL.** A O-LEVEL **recomenda formalmente** a contratação, pelo FRANQUEADO, da **API OFICIAL (WhatsApp Business Cloud API)**, modalidade que oferece estabilidade, conformidade e suporte oficial da Meta, com custos adicionais cobrados diretamente pela Meta e repassados conforme Anexo II.
+3.2.2. **FACULDADE DE SUSPENSÃO/DESCONTINUIDADE.** A O-LEVEL poderá, a seu critério exclusivo e sem aviso prévio, **suspender, modificar ou descontinuar** a integração via API não oficial, sem que isso configure inadimplemento contratual ou enseje qualquer abatimento, reembolso ou direito de rescisão sem ônus.
 
-3.2.3. **FACULDADE DE SUSPENSÃO/DESCONTINUIDADE.** A O-LEVEL poderá, a seu critério exclusivo e sem aviso prévio, **suspender, modificar ou descontinuar** a integração via API não oficial, sem que isso configure inadimplemento contratual ou enseje qualquer abatimento, reembolso ou direito de rescisão sem ônus.
-
-3.3. **AUTOMAÇÃO DE MENSAGENS VIA WHATSAPP - API OFICIAL (OPCIONAL).** Mediante adesão expressa formalizada por OS, o FRANQUEADO poderá optar pela integração com a **WhatsApp Business Platform (Cloud API)**, modalidade oficial homologada pela Meta, que está sujeita a:
-
-(a) **custos adicionais** cobrados diretamente pela Meta por conversa iniciada (Marketing, Utility, Authentication, Service), repassados ao FRANQUEADO conforme tabela do **Anexo II**;
-
-(b) requisitos de cadastro, verificação de marca (Business Verification) e aprovação de templates de mensagem pela Meta, cujos prazos e aprovação escapam ao controle da O-LEVEL;
-
-(c) regras de qualidade impostas pela Meta (Quality Rating), cuja eventual queda poderá resultar em limitações de envio, sendo igualmente não imputáveis à O-LEVEL.
-
-3.4. **DISPARO AUTOMÁTICO DE DOCUMENTOS E NOTIFICAÇÕES.** O SOFTWARE EVNTUM realizará, conforme parametrização do FRANQUEADO, o disparo automático de:
+3.3. **DISPARO AUTOMÁTICO DE DOCUMENTOS E NOTIFICAÇÕES.** O SOFTWARE EVNTUM realizará, conforme parametrização do FRANQUEADO, o disparo automático de:
 
 (a) contratos de evento;
 
@@ -144,15 +132,15 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (d) lembretes, mediante regras configuráveis.
 
-3.5. **PESQUISA DE FEEDBACK PÓS-EVENTO VIA WHATSAPP.** O SOFTWARE EVNTUM realizará, conforme parametrização do FRANQUEADO, o disparo de pesquisas de feedback aos clientes do FRANQUEADO por meio da integração com o WhatsApp (API não oficial ou, mediante adesão, API oficial), observando-se que:
+3.4. **PESQUISA DE FEEDBACK PÓS-EVENTO VIA WHATSAPP.** O SOFTWARE EVNTUM realizará, conforme parametrização do FRANQUEADO, o disparo de pesquisas de feedback aos clientes do FRANQUEADO por meio da integração com o WhatsApp via API não oficial, observando-se que:
 
-(a) **a funcionalidade de feedback é entregue pelo mesmo canal de WhatsApp** contratado pelo FRANQUEADO, sujeitando-se integralmente aos riscos, limitações e isenções de responsabilidade da Cláusula 3.2 (API não oficial) ou da Cláusula 3.3 (API oficial), conforme a modalidade adotada;
+(a) **a funcionalidade de feedback é entregue pelo mesmo canal de WhatsApp** contratado pelo FRANQUEADO, sujeitando-se integralmente aos riscos, limitações e isenções de responsabilidade da Cláusula 3.2;
 
 (b) as respostas coletadas são consolidadas tecnicamente no SOFTWARE EVNTUM para fins de relatório do FRANQUEADO;
 
 (c) a O-LEVEL poderá, a seu exclusivo critério, **modificar, suspender ou descontinuar** a funcionalidade de feedback, sem que isso enseje desconto, abatimento, indenização, crédito, reembolso ou direito de rescisão sem ônus do FRANQUEADO.
 
-3.6. **AUTOMAÇÕES PERSONALIZADAS E CUSTOMIZAÇÕES DE SOFTWARE.** Qualquer demanda por automações personalizadas ou customizações específicas do SOFTWARE solicitada pelo FRANQUEADO estará sujeita a:
+3.5. **AUTOMAÇÕES PERSONALIZADAS E CUSTOMIZAÇÕES DE SOFTWARE.** Qualquer demanda por automações personalizadas ou customizações específicas do SOFTWARE solicitada pelo FRANQUEADO estará sujeita a:
 
 (a) **análise técnica prévia** pela O-LEVEL, que poderá, a seu exclusivo critério, **aceitar, recusar ou propor escopo alternativo**;
 
@@ -162,31 +150,25 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (d) na ausência de OS ou aditivo formalizado, não haverá obrigação da O-LEVEL de executar a customização, nem do FRANQUEADO de pagá-la.
 
-3.7. **VEDAÇÃO A FUNCIONALIDADES NÃO PREVISTAS.** Funcionalidades não expressamente listadas no Anexo I ou em OS específica **não integram o objeto deste CONTRATO** e não poderão ser exigidas da O-LEVEL a qualquer título.
+**3.5.1.** **MÓDULOS INCLUSOS SEM CUSTO ADICIONAL.** Para eliminação de dúvida, os módulos de **Financeiro**, **Feedback** e **Freelancer** integram o escopo padrão do SOFTWARE EVNTUM descrito no Anexo I e **não estão sujeitos a qualquer cobrança ou custo adicional**, não se confundindo com as automações personalizadas e customizações de que trata esta Cláusula 3.5. Permanecem sujeitos a cobrança adicional, na forma desta Cláusula, eventuais customizações específicas solicitadas pelo FRANQUEADO sobre esses módulos.
+
+3.6. **VEDAÇÃO A FUNCIONALIDADES NÃO PREVISTAS.** Funcionalidades não expressamente listadas no Anexo I ou em OS específica **não integram o objeto deste CONTRATO** e não poderão ser exigidas da O-LEVEL a qualquer título.
 
 ---
 
 ## CLÁUSULA 4ª - DO SUPORTE TÉCNICO
 
-4.1. **SUPORTE BÁSICO (INCLUSO).** A LICENÇA inclui suporte técnico básico, com as seguintes características:
+4.1. **SUPORTE TÉCNICO (INCLUSO).** A LICENÇA inclui suporte técnico, sem custo adicional, com as seguintes características:
 
-(a) **Horário de atendimento**: segunda a sexta-feira, das 08h00 às 17h00, horário de Brasília (excluídos feriados nacionais);
+(a) **Horário de atendimento**: todos os dias da semana, inclusive finais de semana e feriados, das 08h00 às 18h00, horário de Brasília;
 
 (b) **Canal de atendimento**: e-mail dedicado **suporte@olevel.com.br**, complementado por WhatsApp empresarial e portal de chamados a ser disponibilizado pela O-LEVEL;
 
-(c) **SLA de primeira resposta**: até **1 (um) dia útil** para chamados de severidade normal;
+(c) **SLA de primeira resposta**: até **2 (duas) horas em dias de semana (segunda a sexta-feira)** e até **4 (quatro) horas em finais de semana e feriados**, contadas dentro do horário de atendimento;
 
 (d) **Escopo**: esclarecimento de dúvidas operacionais, reporte de eventuais falhas, orientação sobre uso das funcionalidades nativas do SOFTWARE EVNTUM.
 
-4.2. **SUPORTE PREMIUM (OPCIONAL, MEDIANTE COBRANÇA ADICIONAL).** O FRANQUEADO poderá, mediante adesão formal e pagamento adicional conforme **Anexo II**, contratar suporte premium, com:
-
-(a) **Horário de atendimento estendido**: segunda a sexta-feira, das 08h00 às 17h00, e aos sábados, domingos e feriados, das 10h00 às 16h00, horário de Brasília;
-
-(b) **SLA de primeira resposta**: até **4 (quatro) horas úteis** para chamados de severidade normal e até **2 (duas) horas úteis** para chamados de severidade alta (entendendo-se como tal aqueles que impedem completamente o uso do SOFTWARE);
-
-(c) **Canal preferencial**: WhatsApp empresarial dedicado e e-mail prioritário.
-
-4.3. **EXCLUSÕES DO SUPORTE.** O suporte, em qualquer modalidade, **não abrange**:
+4.2. **EXCLUSÕES DO SUPORTE.** O suporte **não abrange**:
 
 (a) treinamento aprofundado de USUÁRIOS (cobrado à parte);
 
@@ -877,47 +859,55 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 - Status de evento (proposto, confirmado, realizado, cancelado);
 - Geração automática de contratos a partir de templates.
 
-**2.2. Automação de Mensagens via WhatsApp - API Não Oficial (padrão)**
+**2.2. Automação de Mensagens via WhatsApp - API Não Oficial**
 
 - Disparo de contrato após confirmação do evento;
 - Reconfirmação automática na semana do evento;
 - Notificação de novo evento agendado;
 - Lembretes parametrizáveis.
 
-> **AVISO LEGAL DESTACADO:** A integração via API não oficial está sujeita a bloqueios, banimentos, suspensões, perda total da conta, instabilidades e descontinuidade unilateral pela Meta, com risco operacional **integralmente e exclusivamente** assumido pelo FRANQUEADO, conforme Cláusula 3.2 do CONTRATO. A O-LEVEL **recomenda formalmente** a contratação da API Oficial.
+> **AVISO LEGAL DESTACADO:** A integração via API não oficial está sujeita a bloqueios, banimentos, suspensões, perda total da conta, instabilidades e descontinuidade unilateral pela Meta, com risco operacional **integralmente e exclusivamente** assumido pelo FRANQUEADO, conforme Cláusula 3.2 do CONTRATO. O FRANQUEADO declara-se **plenamente ciente** desses riscos.
 
-**2.3. Integração com WhatsApp Business Platform (Cloud API) - Opcional**
+**2.3. Pesquisa de Feedback Pós-Evento via WhatsApp**
 
-- Disponível mediante OS;
-- Custos adicionais por conversa (Meta) repassados ao FRANQUEADO;
-- Requer Business Verification e aprovação de templates pela Meta.
-
-**2.4. Pesquisa de Feedback Pós-Evento via WhatsApp**
-
-- Disparo de pesquisas de feedback aos clientes do FRANQUEADO pelo mesmo canal de WhatsApp contratado (API não oficial ou, mediante adesão, API oficial);
+- Disparo de pesquisas de feedback aos clientes do FRANQUEADO pelo mesmo canal de WhatsApp via API não oficial;
 - Consolidação técnica das respostas no SOFTWARE EVNTUM para fins de relatório;
-- Sujeita aos riscos e isenções da Cláusula 3.2/3.3, conforme a modalidade adotada, nos termos da Cláusula 3.5.
+- Sujeita aos riscos e isenções da Cláusula 3.2, nos termos da Cláusula 3.4.
 
-**2.5. Relatórios e Dashboard**
+**2.4. Relatórios e Dashboard**
 
 - Visão consolidada de eventos por período;
 - Indicadores do FRANQUEADO;
 - Exportação em formato aberto.
 
-**2.6. Multi-Tenancy e Visão Consolidada da Franqueadora**
+**2.5. Multi-Tenancy e Visão Consolidada da Franqueadora**
 
 - Isolamento lógico dos dados do FRANQUEADO em relação aos demais clientes da O-LEVEL, mediante segregação por tenant;
 - A franqueadora da rede ARQUITETOS DA PIZZA poderá ter **acesso de visão consolidada (somente leitura)** aos dados operacionais e indicadores do FRANQUEADO, mediante perfil de acesso adequado, nos termos e limites da Cláusula 13.10 do CONTRATO.
 
-**2.7. Audit Trail Imutável**
+**2.6. Audit Trail Imutável**
 
 - Registro append-only de cada Contrato Emitido (timestamp + hash + UUID + FRANQUEADO + USUÁRIO);
 - Prova oficial para aferição de categoria e faturamento (Cláusula 6.9).
 
-**2.8. Autenticação de Dois Fatores (2FA)**
+**2.7. Autenticação de Dois Fatores (2FA)**
 
 - Mecanismo nativo TOTP (RFC 6238) para todos os USUÁRIOS administrativos;
 - Obrigatório nos termos da Cláusula 11.4.
+
+**2.8. Módulo Financeiro**
+
+- Controle financeiro dos eventos (valores, recebimentos, pagamentos e fluxo de caixa operacional);
+- Relatórios financeiros consolidados por período;
+- **Incluso na mensalidade, sem custo adicional**, nos termos da Cláusula 3.5.1.
+
+**2.9. Módulo Freelancer**
+
+- Cadastro e gestão de freelancers/equipe alocada por evento;
+- Controle de escalas, atribuições e disponibilidade;
+- **Incluso na mensalidade, sem custo adicional**, nos termos da Cláusula 3.5.1.
+
+> **Nota:** os módulos de Financeiro (item 2.8), Feedback (item 2.3) e Freelancer (item 2.9) integram o escopo padrão do SOFTWARE e **não acarretam qualquer cobrança adicional**, conforme Cláusula 3.5.1 do CONTRATO.
 
 ## 3. ITENS OPCIONAIS (mediante OS e cobrança adicional)
 
@@ -968,25 +958,7 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 | **Taxa de Setup** (contratações até 30/06/2026)         | **ISENTA**                              | Aplicável ao FRANQUEADO que assinar o CONTRATO até 30/06/2026.                     |
 
 
-## 4. SUPORTE PREMIUM (OPCIONAL)
-
-
-| Item                          | Valor                                                             |
-| ----------------------------- | ----------------------------------------------------------------- |
-| **Adicional Suporte Premium** | **R$ 197,90/mês** |
-
-
-## 5. REPASSE DE CUSTOS DE TERCEIROS
-
-
-| Item                                          | Valor                                                                                                          |
-| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **API Oficial WhatsApp - conversa Marketing** | Custo Meta + **35% de taxa administrativa**                                                                    |
-| **API Oficial WhatsApp - conversa Utility**   | Custo Meta + **35% de taxa administrativa**                                                                    |
-| **API Oficial WhatsApp - conversa Service**   | Custo Meta + **35% de taxa administrativa**                                                                    |
-
-
-## 6. SERVIÇOS ADICIONAIS (mediante OS)
+## 4. SERVIÇOS ADICIONAIS (mediante OS)
 
 
 | Serviço                                        | Valor base                                             |
@@ -998,7 +970,7 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 | Exportação adicional de dados (após rescisão)  | **Sob orçamento**                                      |
 
 
-## 7. CONDIÇÕES DE PAGAMENTO
+## 5. CONDIÇÕES DE PAGAMENTO
 
 - **Taxa de Setup**: paga no ato da assinatura do CONTRATO (a partir de 01/07/2026).
 - **Contabilização e fechamento do ciclo**: no dia 1º (primeiro) de cada mês, relativo ao mês de referência encerrado.
@@ -1045,14 +1017,13 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 ## 4. SLA DE PRIMEIRA RESPOSTA DE SUPORTE
 
 
-| Modalidade      | Severidade Normal | Severidade Alta |
-| --------------- | ----------------- | --------------- |
-| Suporte Básico  | 1 dia útil        | 1 dia útil      |
-| Suporte Premium | 4 horas úteis     | 2 horas úteis   |
+| Período                          | SLA de primeira resposta |
+| -------------------------------- | ------------------------ |
+| Dias de semana (segunda a sexta) | 2 horas                  |
+| Finais de semana e feriados      | 4 horas                  |
 
 
-**Severidade Alta**: impossibilidade total de uso do SOFTWARE pelo FRANQUEADO.
-**Severidade Normal**: qualquer outro chamado.
+SLA de primeira resposta contado dentro do horário de atendimento (08h00 às 18h00, horário de Brasília, todos os dias da semana, inclusive finais de semana e feriados), nos termos da Cláusula 4.1.
 
 ## 5. SLA DE RESPOSTA A SOLICITAÇÕES LGPD
 
@@ -1109,7 +1080,7 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 | **Railway Corp.**                               | Hospedagem de aplicação e workers                       | EUA                | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **Cloudflare, Inc.**                            | CDN, WAF e proteção DDoS                                | EUA / Global       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **Google LLC (Google Cloud / Workspace)**       | E-mail corporativo, autenticação, backup secundário     | EUA / Global       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
-| **Meta Platforms, Inc.**                        | API WhatsApp Business (oficial e não oficial)           | EUA / Global       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL (técnico) / FRANQUEADO (custos oficiais)          |
+| **Meta Platforms, Inc.**                        | API WhatsApp (não oficial)                              | EUA / Global       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **Twilio Inc.**                                 | SMS transacional e API de mensageria                    | EUA                | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **SendGrid (Twilio)**                           | E-mail transacional                                     | EUA                | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **Stripe, Inc.**                                | Processamento de cobrança recorrente (cartão/PIX/boleto) | EUA / Brasil       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
@@ -1196,6 +1167,16 @@ Resumo das medidas implementadas e mantidas pela O-LEVEL:
 {{chkSetupIsento}} Assinatura até 30/06/2026 - **ISENTA** de Taxa de Setup
 {{chkSetupPago}} Assinatura a partir de 01/07/2026 - **R$ 589,90** (única, não reembolsável, paga no ato da assinatura, antes da liberação dos acessos)
 
+**SUPORTE**
+
+Suporte técnico incluso na LICENÇA, **sem custo adicional**, nos termos da Cláusula 4ª (primeira resposta em até 2 horas em dias de semana e 4 horas em finais de semana e feriados).
+
+**MODALIDADE DE INTEGRAÇÃO COM O WHATSAPP**
+
+A integração com o WhatsApp é realizada **exclusivamente via API NÃO OFICIAL**. O FRANQUEADO declara estar ciente e assumir integralmente todos os riscos da Cláusula 3.2 do CONTRATO.
+
+(X) Declaro ciência e aceito utilizar a API não oficial, assumindo integralmente os riscos da Cláusula 3.2
+
 **DATA DE INÍCIO**: {{dataInicio}}
 
 ### DECLARAÇÃO ESPECÍFICA DE CIÊNCIA - API NÃO OFICIAL DO WHATSAPP
@@ -1210,7 +1191,7 @@ O FRANQUEADO **declara, de forma expressa, livre, informada e inequívoca**, que
 (f) penalidades de suspensão pela Meta sobre a operação;
 (g) ausência integral de responsabilidade ou ressarcimento por parte da O-LEVEL.
 
-O FRANQUEADO **renuncia expressamente** a qualquer pretensão de ressarcimento, indenização, abatimento, reembolso, crédito ou rescisão sem ônus em decorrência de tais eventos, declarando-se ciente de que a O-LEVEL **recomenda formalmente** a contratação da API OFICIAL.
+O FRANQUEADO **renuncia expressamente** a qualquer pretensão de ressarcimento, indenização, abatimento, reembolso, crédito ou rescisão sem ônus em decorrência de tais eventos, declarando-se ciente de que a integração com o WhatsApp é realizada **exclusivamente via API não oficial**.
 
 **Assinatura específica para esta declaração**:
 
@@ -1235,7 +1216,7 @@ O FRANQUEADO declara que **leu integralmente** o CONTRATO e seus Anexos, **compr
 
 ### ASSINATURA
 
-**{{cidade}}, {{dataNumerica}}**
+**{{cidade}}, {{dataExtenso}}**
 
 ---
 
@@ -1322,4 +1303,5 @@ CPF: {{representanteCPF}}
 **8.1.** Estas CCPs vigorarão enquanto perdurar a relação entre Exportador e Importador, sobrevivendo aos efeitos de obrigações de confidencialidade, de segurança, de cooperação com autoridades e de eliminação de dados, pelos prazos legais aplicáveis.
 
 ---
+
 
