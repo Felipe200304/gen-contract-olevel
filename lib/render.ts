@@ -40,9 +40,8 @@ export async function renderPdf(html: string): Promise<Uint8Array> {
   const isLocal = process.env.NODE_ENV === "development";
   const browser = await puppeteer.launch({
     args: isLocal ? ["--no-sandbox", "--disable-setuid-sandbox"] : chromium.args,
-    defaultViewport: chromium.defaultViewport,
     executablePath: isLocal ? undefined : await chromium.executablePath(),
-    headless: isLocal ? true : chromium.headless,
+    headless: true,
   });
   try {
     const page = await browser.newPage();
