@@ -60,7 +60,7 @@ export const defaultValues: Partial<ContractData> = {
   categoria: "PEQUENA",
   suporte: "BASICO",
   apiOficial: false,
-  dataInicio: "",
+  dataInicio: "2026-06-08",
   cloudProvider: "Amazon Web Services, Inc. (AWS)",
 };
 

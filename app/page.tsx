@@ -282,7 +282,6 @@ export default function Home() {
               />
             </div>
 
-            <TextField {...f} name="dataInicio" label="Data de início" type="date" />
           </CardContent>
         </Card>
 
