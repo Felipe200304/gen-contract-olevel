@@ -1,6 +1,6 @@
 import MarkdownIt from "markdown-it";
 import puppeteer from "puppeteer-core";
-import chromium from "@sparticuz/chromium";
+import chromium from "@sparticuz/chromium-min";
 
 const md = new MarkdownIt({ html: false, linkify: true, typographer: false });
 
@@ -38,9 +38,11 @@ export function htmlDocument(markdown: string): string {
 
 export async function renderPdf(html: string): Promise<Uint8Array> {
   const isLocal = process.env.NODE_ENV === "development";
+  const CHROMIUM_REMOTE_URL =
+    "https://github.com/Sparticuz/chromium/releases/download/v147.0.0/chromium-v147.0.0-pack.tar";
   const browser = await puppeteer.launch({
     args: isLocal ? ["--no-sandbox", "--disable-setuid-sandbox"] : chromium.args,
-    executablePath: isLocal ? undefined : await chromium.executablePath(),
+    executablePath: isLocal ? undefined : await chromium.executablePath(CHROMIUM_REMOTE_URL),
     headless: true,
   });
   try {
