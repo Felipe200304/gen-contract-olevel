@@ -1196,16 +1196,6 @@ Resumo das medidas implementadas e mantidas pela O-LEVEL:
 {{chkSetupIsento}} Assinatura até 30/06/2026 - **ISENTA** de Taxa de Setup
 {{chkSetupPago}} Assinatura a partir de 01/07/2026 - **R$ 589,90** (única, não reembolsável, paga no ato da assinatura, antes da liberação dos acessos)
 
-**SUPORTE**
-
-{{chkSuporteBasico}} Suporte Básico (incluso)
-{{chkSuportePremium}} Suporte Premium (R$ 197,90/mês adicional)
-
-**MODALIDADE DE INTEGRAÇÃO COM O WHATSAPP**
-
-{{chkApiNao}} NÃO adoto a API oficial - utilizarei apenas API não oficial (padrão), assumindo integralmente todos os riscos da Cláusula 3.2
-{{chkApiSim}} SIM, adoto a API oficial - adesão à WhatsApp Business Platform, ciente dos custos adicionais cobrados pela Meta
-
 **DATA DE INÍCIO**: {{dataInicio}}
 
 ### DECLARAÇÃO ESPECÍFICA DE CIÊNCIA - API NÃO OFICIAL DO WHATSAPP

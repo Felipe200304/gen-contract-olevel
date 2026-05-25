@@ -41,10 +41,6 @@ export function fillContract(data: ContractData): string {
     chkCatMediaGrande: data.categoria === "MEDIA_GRANDE" ? CHK_ON : CHK_OFF,
     chkSetupIsento: isento ? CHK_ON : CHK_OFF,
     chkSetupPago: isento ? CHK_OFF : CHK_ON,
-    chkSuporteBasico: data.suporte === "BASICO" ? CHK_ON : CHK_OFF,
-    chkSuportePremium: data.suporte === "PREMIUM" ? CHK_ON : CHK_OFF,
-    chkApiNao: data.apiOficial ? CHK_OFF : CHK_ON,
-    chkApiSim: data.apiOficial ? CHK_ON : CHK_OFF,
   };
 
   const filled = template.replace(/\{\{(\w+)\}\}/g, (match, key: string) => {

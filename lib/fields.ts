@@ -30,8 +30,6 @@ export const contractSchema = z.object({
 
   // Opções comerciais
   categoria: z.enum(["PEQUENA", "MEDIA_GRANDE"]),
-  suporte: z.enum(["BASICO", "PREMIUM"]),
-  apiOficial: z.boolean(),
   dataInicio: requiredStr("Data de início"), // yyyy-mm-dd
 
   // Configuração (default O-LEVEL preenchido no formulário)
@@ -58,8 +56,6 @@ export const defaultValues: Partial<ContractData> = {
   cidade: "Curitiba/PR",
   dataAssinatura: "",
   categoria: "PEQUENA",
-  suporte: "BASICO",
-  apiOficial: false,
   dataInicio: "2026-06-08",
   cloudProvider: "Amazon Web Services, Inc. (AWS)",
 };

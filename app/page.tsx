@@ -245,52 +245,6 @@ export default function Home() {
               />
             </div>
 
-            <div>
-              <Label className="mb-2 block">Suporte</Label>
-              <Controller
-                control={control}
-                name="suporte"
-                render={({ field }) => (
-                  <RadioGroup
-                    value={field.value}
-                    onValueChange={field.onChange}
-                    className="gap-2"
-                  >
-                    <label className="flex items-center gap-2 text-sm">
-                      <RadioGroupItem value="BASICO" /> Básico (incluso)
-                    </label>
-                    <label className="flex items-center gap-2 text-sm">
-                      <RadioGroupItem value="PREMIUM" /> Premium (R$ 197,90/mês)
-                    </label>
-                  </RadioGroup>
-                )}
-              />
-            </div>
-
-            <div>
-              <Label className="mb-2 block">API oficial do WhatsApp</Label>
-              <Controller
-                control={control}
-                name="apiOficial"
-                render={({ field }) => (
-                  <RadioGroup
-                    value={field.value ? "sim" : "nao"}
-                    onValueChange={(v) => field.onChange(v === "sim")}
-                    className="gap-2"
-                  >
-                    <label className="flex items-center gap-2 text-sm">
-                      <RadioGroupItem value="nao" /> Não — usar apenas API não
-                      oficial (assume riscos da Cláusula 3.2)
-                    </label>
-                    <label className="flex items-center gap-2 text-sm">
-                      <RadioGroupItem value="sim" /> Sim — adesão à WhatsApp
-                      Business Platform (custos Meta)
-                    </label>
-                  </RadioGroup>
-                )}
-              />
-            </div>
-
           </CardContent>
         </Card>
 
