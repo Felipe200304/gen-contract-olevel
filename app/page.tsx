@@ -232,8 +232,7 @@ export default function Home() {
                       Arquitetos da Pizza Uberlândia, Romancini e Ribeiro Buffet Ltda,
                       Arquitetos da Pizza Guarulhos, BÁRBARA BRUNA FACCA LOPES-ME,
                       Arquitetos da Pizza SAC Central, ADP RIO DE JANEIRO COMERCIO DE ALIMENTOS LTDA,
-                      Arquitetos da Pizza Pouso Alegre, LRRJ COMERCIO E SERVICO DE ALIMENTOS LTDA - ME,
-                      Arquitetos da Pizza Balneário Camboriú, Arquitetos da Pizza Mogi Mirim,
+                      Arquitetos da Pizza Pouso Alegre, Arquitetos da Pizza Balneário Camboriú, Arquitetos da Pizza Mogi Mirim,
                       Arquitetos da Pizza Itu, Arquitetos da Pizza Florianópolis.
                     </p>
                     <label className="flex items-center gap-2 text-sm">
