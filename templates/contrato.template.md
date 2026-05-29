@@ -30,6 +30,8 @@ Sendo a O-LEVEL e o FRANQUEADO, em conjunto, denominados simplesmente **"PARTES"
 
 **CONSIDERANDO QUE** o presente CONTRATO **NÃO constitui contrato de franquia** nos termos da Lei n. 13.966/2019, tratando-se exclusivamente de licenciamento de software empresarial firmado diretamente entre a O-LEVEL e o FRANQUEADO, sem qualquer transferência de know-how, marca, métodos comerciais ou criação de vínculo de sub-franquia, master-franquia, distribuição ou agenciamento;
 
+**CONSIDERANDO QUE** o SOFTWARE EVNTUM constitui ativo de propriedade intelectual de titularidade exclusiva da O-LEVEL, cujo **valor estimado de desenvolvimento é de R$ 80.000,00 (oitenta mil reais)**, considerada a mão de obra de desenvolvedores e o acervo de informações, dados e know-how técnico nele incorporados, servindo tal valor de **referência econômica para as cláusulas penais autônomas** pactuadas neste CONTRATO, nos termos da Cláusula 8.7;
+
 **RESOLVEM** as PARTES celebrar o presente **CONTRATO DE LICENÇA DE USO DE SOFTWARE EM REGIME DE SOFTWARE AS A SERVICE (SaaS), PRESTAÇÃO DE SERVIÇOS CORRELATOS E OUTRAS AVENÇAS** (doravante "CONTRATO"), que se regerá pelas seguintes cláusulas e condições:
 
 ---
@@ -42,17 +44,21 @@ Sendo a O-LEVEL e o FRANQUEADO, em conjunto, denominados simplesmente **"PARTES"
 
 **1.1.2.** **"LICENÇA"**: o direito **não exclusivo, intransferível, revogável, sublicenciamento vedado, limitado no tempo e oneroso** de utilização do SOFTWARE EVNTUM pelo FRANQUEADO, exclusivamente para os fins descritos neste CONTRATO.
 
-**1.1.3.** **"CONTRATO EMITIDO"**: para todos os fins de cálculo de mensalidade e categorização, considera-se "Contrato Emitido" **todo e qualquer contrato de evento que seja gerado, assinado, registrado, exportado ou de qualquer forma processado no SOFTWARE EVNTUM pelo FRANQUEADO, independentemente de seu status posterior (realizado, cancelado, adiado, reembolsado ou estornado)**. A apuração se dá pela contagem única de registros gerados no SOFTWARE no mês de referência, vedada qualquer alegação de exclusão retroativa após o fechamento mensal. A apuração observará o audit trail imutável previsto na Cláusula 6.9 deste CONTRATO.
+**1.1.3.** **"CONTRATO EMITIDO"**: todo e qualquer contrato de evento gerado, assinado, registrado ou de qualquer forma processado no SOFTWARE EVNTUM pelo FRANQUEADO, independentemente de seu status posterior.
+
+**1.1.3-A.** **"CONTRATO EMITIDO E APROVADO"** (ou **"CONTRATO FATURÁVEL"**): o Contrato Emitido que **não tenha sido validamente cancelado** na forma e nos prazos da Cláusula 6.1.3. **Somente os Contratos Emitidos e Aprovados compõem a base de cálculo de mensalidade, de categorização, de upgrade, de downgrade e de multa** previstas neste CONTRATO. A apuração se dá pela contagem única, no mês de referência, dos Contratos Emitidos e Aprovados, observado o audit trail imutável da Cláusula 6.9, vedada exclusão retroativa, após o fechamento mensal, de contratos que naquela data já estejam aprovados e que não comportem cancelamento nos termos da Cláusula 6.1.3.
 
 **1.1.4.** **"USUÁRIO"**: pessoa física autorizada pelo FRANQUEADO a acessar o SOFTWARE mediante credenciais individuais e intransferíveis.
 
 **1.1.5.** **"FRANQUEADO"**: a pessoa jurídica titular e operadora de unidade franqueada da rede ARQUITETOS DA PIZZA que firma o presente CONTRATO diretamente com a O-LEVEL, na qualidade de CONTRATANTE e LICENCIADO.
 
-**1.1.6.** **"CATEGORIA PEQUENA"**: regime em que o FRANQUEADO processa **menos de 20 (vinte) Contratos Emitidos** no mês de referência, sujeito à cobrança variável por contrato.
+**1.1.6.** **"CATEGORIA PEQUENA"**: regime em que o FRANQUEADO processa **menos de 20 (vinte) Contratos Emitidos e Aprovados** no mês de referência, sujeito à cobrança variável por contrato.
 
-**1.1.7.** **"CATEGORIA MÉDIA/GRANDE"**: regime em que o FRANQUEADO **(i)** processa **20 (vinte) ou mais Contratos Emitidos** no mês de referência, ou **(ii)** opta voluntariamente, mediante manifestação formal, pela cobrança em regime de fee fixo mensal.
+**1.1.7.** **"CATEGORIA MÉDIA/GRANDE"**: regime em que o FRANQUEADO **(i)** processa **20 (vinte) ou mais Contratos Emitidos e Aprovados** no mês de referência, ou **(ii)** opta voluntariamente, mediante manifestação formal, pela cobrança em regime de fee fixo mensal.
 
-**1.1.8.** **"API NÃO OFICIAL DO WHATSAPP"**: tecnologia de integração com a plataforma WhatsApp por meio de bibliotecas ou clientes **não homologados oficialmente pela Meta Platforms, Inc.**, sujeita a riscos operacionais conhecidos, incluindo, mas não se limitando a, **bloqueios, suspensões, banimentos, instabilidades e descontinuidade abrupta** por parte da Meta.
+**1.1.8.** **"API NÃO OFICIAL DO WHATSAPP"**: tecnologia de integração com a plataforma WhatsApp por meio de bibliotecas ou clientes **não homologados oficialmente pela Meta Platforms, Inc.**, sujeita a riscos operacionais conhecidos, incluindo, mas não se limitando a, **bloqueios, suspensões, banimentos, instabilidades e descontinuidade abrupta** por parte da Meta. Constitui a **modalidade padrão** de envio de mensagens do SOFTWARE.
+
+**1.1.8-A.** **"INTEGRAÇÃO OFICIAL VIA TERCEIRO (KOMMO)"**: modalidade **alternativa e opcional** de integração com o WhatsApp por meio da plataforma terceira **Kommo**, que disponibiliza integração **oficial** sobre o **WhatsApp Business Platform / Cloud API**, homologada pela Meta, contratada **diretamente pelo FRANQUEADO e às suas expensas**, nos termos da Cláusula 3.2.3.
 
 **1.1.9.** **"DADOS DA CONTRATANTE"**: todos os dados, informações e conteúdos inseridos, gerados, importados ou processados no SOFTWARE pelo FRANQUEADO ou por seus USUÁRIOS.
 
@@ -66,7 +72,9 @@ Sendo a O-LEVEL e o FRANQUEADO, em conjunto, denominados simplesmente **"PARTES"
 
 **1.1.14.** **"TAXA DE SETUP"**: taxa única e não reembolsável devida no ato da assinatura deste CONTRATO pelo FRANQUEADO que o firmar a partir de 01/07/2026, conforme Cláusula 6.10 e Anexo II.
 
-**1.1.15.** **"AUDIT TRAIL"**: registro técnico imutável, em modelo append-only, de cada Contrato Emitido, contendo timestamp, hash criptográfico e identificador único, mantido pela O-LEVEL como prova oficial para fins de aferição de categoria e faturamento.
+**1.1.15.** **"AUDIT TRAIL"**: registro técnico imutável, em modelo append-only, de cada Contrato Emitido, contendo timestamp, hash criptográfico e identificador único, mantido pela O-LEVEL para fins de aferição de categoria e faturamento, dotado de **presunção relativa de veracidade**, admitida prova em contrário, nos termos da Cláusula 6.9.1.
+
+**1.1.16.** **"EVENTO" (para fins das multas autônomas da Cláusula 8.7)**: cada ocorrência de conduta vedada autonomamente considerada, assim entendida a **unidade de violação** definida pelo binômio **(i)** mesma natureza de conduta (correspondente a uma das alíneas da Cláusula 8.7) e **(ii)** mesma janela temporal de até 30 (trinta) dias corridos. **Atos múltiplos, repetidos, continuados ou sucessivos da mesma natureza**, praticados dentro de uma mesma janela de 30 (trinta) dias e que decorram de um **mesmo desígnio, decisão, projeto ou cadeia causal**, reputam-se **um único Evento**, ainda que materializados por meio de pluralidade de acessos, cópias, mensagens, registros ou operações técnicas. Condutas de naturezas distintas (alíneas diversas) configuram Eventos autônomos, observado o cap agregado da Cláusula 8.7.1. Para eliminação de dúvida, a contagem de "Eventos" não se confunde com a contagem de "Contratos Emitidos" das demais cláusulas deste CONTRATO.
 
 ---
 
@@ -100,7 +108,7 @@ Sendo a O-LEVEL e o FRANQUEADO, em conjunto, denominados simplesmente **"PARTES"
 
 > **ATENÇÃO: LEIA COM MÁXIMA ATENÇÃO ANTES DE CONTRATAR.**
 >
-> **A FUNCIONALIDADE PADRÃO DE ENVIO DE MENSAGENS VIA WHATSAPP DO SOFTWARE EVNTUM UTILIZA INTEGRAÇÃO POR MEIO DE *API NÃO OFICIAL*, NÃO HOMOLOGADA NEM AUTORIZADA PELA META PLATFORMS, INC. ESTA MODALIDADE ENVOLVE RISCOS OPERACIONAIS GRAVES E IRREVERSÍVEIS, EXPRESSAMENTE ASSUMIDOS, EM SUA INTEGRALIDADE, PELO FRANQUEADO.**
+> **O ENVIO DE MENSAGENS VIA WHATSAPP DO SOFTWARE EVNTUM É REALIZADO, POR PADRÃO, POR MEIO DE *API NÃO OFICIAL*, NÃO HOMOLOGADA NEM AUTORIZADA PELA META PLATFORMS, INC. A O-LEVEL NÃO COMERCIALIZA DIRETAMENTE A API OFICIAL DA META, MAS DISPONIBILIZA, COMO ALTERNATIVA OPCIONAL E A EXPENSAS DO FRANQUEADO, A INTEGRAÇÃO OFICIAL POR MEIO DE PLATAFORMA TERCEIRA (KOMMO), NA FORMA DA CLÁUSULA 3.2.3. A MODALIDADE PADRÃO (API NÃO OFICIAL) ENVOLVE RISCOS OPERACIONAIS GRAVES E POTENCIALMENTE IRREVERSÍVEIS, DECORRENTES DE FATORES ESTRANHOS AO CONTROLE DA O-LEVEL (NOTADAMENTE ATOS E POLÍTICAS DA META). O FRANQUEADO DECLARA ESTAR PLENAMENTE CIENTE DESSES RISCOS E QUE OS CONSIDEROU NA SUA DECISÃO DE CONTRATAR. A O-LEVEL OBRIGA-SE A EMPREGAR MELHORES ESFORÇOS PARA MANTER A INTEGRAÇÃO E A INFORMAR O FRANQUEADO SOBRE INCIDENTES RELEVANTES, NA FORMA DAS CLÁUSULAS 3.2.2-A E 3.2.3, E A BUSCAR SOLUÇÃO JUNTO AO SUPORTE EM CASO DE INDISPONIBILIDADE PROLONGADA IMPUTÁVEL À META (CLÁUSULA 3.2.4).**
 
 O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exclusiva responsabilidade** pelos seguintes riscos, sem prejuízo de outros que possam vir a se materializar:
 
@@ -116,11 +124,29 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (f) **aplicação, pela Meta, de penalidades de suspensão temporária ou indefinida** sobre a operação do FRANQUEADO;
 
-(g) **ausência integral de responsabilidade ou ressarcimento, em qualquer hipótese, por parte da O-LEVEL**, por quaisquer prejuízos, danos diretos, indiretos, lucros cessantes, dano reputacional ou qualquer outra consequência decorrente dos riscos acima ou de quaisquer outros relacionados ao uso da API não oficial.
+(g) **não responsabilização da O-LEVEL** por bloqueios, banimentos, suspensões, instabilidades, perda de conta ou descontinuidade da integração que decorram de **ato, política, mecanismo antifraude ou decisão unilateral da Meta Platforms, Inc.**, ou de uso do canal pelo FRANQUEADO em desacordo com a Política de Uso Aceitável (Cláusula 11ª), eventos esses estranhos à esfera de controle da O-LEVEL, ressalvada a responsabilidade da O-LEVEL por dolo ou culpa grave a ela diretamente imputável, nos limites da Cláusula 14ª.
 
-3.2.1. **CIÊNCIA EXPRESSA E DECLARAÇÃO.** Ao assinar o presente CONTRATO, em especial a Declaração Específica de Ciência da Cláusula 22ª, o FRANQUEADO declara, de forma expressa, livre, informada e inequívoca, que **leu, compreendeu integralmente e aceita todos os riscos acima descritos**, renunciando, neste ato, a qualquer pretensão de ressarcimento, indenização, abatimento, reembolso, crédito ou rescisão sem ônus em decorrência de tais eventos.
+3.2.1. **CIÊNCIA EXPRESSA E DECLARAÇÃO.** Ao assinar o presente CONTRATO, em especial a Declaração Específica de Ciência do Anexo V, o FRANQUEADO declara, de forma expressa, livre, informada e inequívoca, que **leu, compreendeu integralmente e está ciente de todos os riscos acima descritos**, reconhecendo que tais riscos decorrem de fatores estranhos ao controle da O-LEVEL e que a responsabilidade da O-LEVEL por eles fica disciplinada na forma das Cláusulas 3.2(g), 3.2.4 e 14ª. **Não há, nesta Cláusula, renúncia a direitos do FRANQUEADO**, ressalvando-se que, quanto aos eventos imputáveis exclusivamente à Meta ou ao uso indevido do canal pelo próprio FRANQUEADO, não haverá responsabilização da O-LEVEL, observado o procedimento de remediação via suporte da Cláusula 3.2.4.
 
-3.2.2. **FACULDADE DE SUSPENSÃO/DESCONTINUIDADE.** A O-LEVEL poderá, a seu critério exclusivo e sem aviso prévio, **suspender, modificar ou descontinuar** a integração via API não oficial, sem que isso configure inadimplemento contratual ou enseje qualquer abatimento, reembolso ou direito de rescisão sem ônus.
+3.2.2. **FACULDADE DE SUSPENSÃO/DESCONTINUIDADE.** A O-LEVEL poderá **suspender, modificar ou descontinuar** a integração via API não oficial quando tal medida for necessária por imposição técnica, de segurança ou decorrente de ato da Meta. Tratando-se de suspensão ou descontinuidade por **conveniência exclusiva da O-LEVEL** (não motivada por fato da Meta, segurança ou imposição técnica), a O-LEVEL comunicará o FRANQUEADO com antecedência mínima de **30 (trinta) dias** e, configurada descontinuidade material de funcionalidade essencial, aplicar-se-á o disposto na Cláusula 16.3 (oferta de funcionalidade equivalente ou, na impossibilidade, rescisão sem multa). A suspensão ou descontinuidade motivada por fato da Meta, segurança ou imposição técnica não configura, por si só, inadimplemento da O-LEVEL, observado o procedimento de remediação da Cláusula 3.2.4.
+
+3.2.2-A. **DEVER DE INFORMAR E MELHORES ESFORÇOS.** A O-LEVEL obriga-se a: **(i)** empregar **melhores esforços técnicos comercialmente razoáveis** para manter a estabilidade e a disponibilidade da integração com o WhatsApp via API não oficial; **(ii)** **comunicar o FRANQUEADO**, em prazo razoável a partir da ciência, sobre incidentes relevantes, instabilidades massivas, bloqueios ou indícios de descontinuidade que afetem a funcionalidade; e **(iii)** orientar o FRANQUEADO sobre boas práticas de uso do canal que reduzam o risco de penalização pela Meta. O descumprimento reiterado e comprovado deste dever de informar, do qual resulte dano direto ao FRANQUEADO, sujeita a O-LEVEL à responsabilidade nos limites da Cláusula 14ª.
+
+3.2.3. **ALTERNATIVA DE INTEGRAÇÃO OFICIAL VIA TERCEIRO (KOMMO).** Como **alternativa opcional** à modalidade padrão (API não oficial), o FRANQUEADO poderá optar, a seu critério e às suas exclusivas expensas, pela integração com o WhatsApp por meio da plataforma **Kommo**, terceira fornecedora que disponibiliza integração **oficial** sobre o WhatsApp Business Platform / Cloud API, homologada pela Meta, observado que:
+
+(a) **a contratação da Kommo é feita diretamente pelo FRANQUEADO**, sendo de sua **exclusiva responsabilidade todos os custos** envolvidos, incluindo, sem limitação: assinatura do plano Kommo (Base, Advanced ou Enterprise), as tarifas de conversa/mensagem (templates) cobradas pela Meta por meio da conta WhatsApp Business do próprio FRANQUEADO, e eventuais custos de configuração inicial;
+
+(b) eleita essa modalidade, a **O-LEVEL responsabiliza-se pela operação do disparo das mensagens** (contratos, reconfirmações, notificações, lembretes e pesquisas de feedback) por meio da integração do SOFTWARE EVNTUM com a Kommo, em substituição ao disparo que seria realizado pela API não oficial;
+
+(c) por se tratar de **canal oficial**, **não se aplicam a esta modalidade os riscos sistêmicos de bloqueio/banimento por uso de API não oficial** descritos na Cláusula 3.2; permanecem, contudo, de responsabilidade do FRANQUEADO o conteúdo das mensagens, a obtenção de opt-in válido e o cumprimento das políticas da Meta e da Kommo;
+
+(d) a O-LEVEL **não garante prazo, volume ou taxa de entrega** das mensagens, que dependem da Meta, da Kommo e da conta do FRANQUEADO, aplicando-se a limitação de responsabilidade da Cláusula 14ª, bem como o dever de informar da Cláusula 3.2.2-A;
+
+(e) a **manutenção da contratação ativa da Kommo pelo FRANQUEADO é condição** de funcionamento desta modalidade; cessada ou suspensa a contratação da Kommo por qualquer motivo, o disparo poderá retornar à modalidade padrão (API não oficial, Cláusula 3.2) ou ser suspenso, conforme parametrização, sem que isso configure inadimplemento da O-LEVEL;
+
+(f) **proteção de dados:** a Kommo é contratada pelo FRANQUEADO na qualidade de **Operadora deste**, competindo ao FRANQUEADO firmar com a Kommo o respectivo acordo de tratamento de dados; a O-LEVEL limita-se a transmitir à Kommo, por instrução do FRANQUEADO, os dados necessários ao disparo, observada a Cláusula 13ª.
+
+3.2.4. **PROCEDIMENTO DE REMEDIAÇÃO POR INDISPONIBILIDADE PROLONGADA IMPUTÁVEL À META.** Caso a integração com o WhatsApp permaneça **indisponível, inoperante ou substancialmente inviabilizada** por causa imputável à Meta Platforms, Inc. (incluindo bloqueio, banimento, suspensão ou descontinuidade unilateral da plataforma ou de seus protocolos), o FRANQUEADO **deverá acionar o suporte da O-LEVEL** (Cláusula 4ª), que se obriga a empregar **melhores esforços técnicos comercialmente razoáveis** para, em conjunto com o FRANQUEADO, buscar e implementar solução, alternativa técnica ou contorno que restabeleça a funcionalidade no menor prazo praticável, mantendo o FRANQUEADO informado da evolução do atendimento. **Esta hipótese não enseja, por si só, direito de rescisão sem multa, abatimento, reembolso, crédito ou indenização**, constituindo o acionamento do suporte e a busca conjunta de solução o **remédio específico** do FRANQUEADO, sem prejuízo da responsabilidade da O-LEVEL por dolo ou culpa grave a ela diretamente imputável, nos limites da Cláusula 14ª.
 
 3.3. **DISPARO AUTOMÁTICO DE DOCUMENTOS E NOTIFICAÇÕES.** O SOFTWARE EVNTUM realizará, conforme parametrização do FRANQUEADO, o disparo automático de:
 
@@ -138,7 +164,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (b) as respostas coletadas são consolidadas tecnicamente no SOFTWARE EVNTUM para fins de relatório do FRANQUEADO;
 
-(c) a O-LEVEL poderá, a seu exclusivo critério, **modificar, suspender ou descontinuar** a funcionalidade de feedback, sem que isso enseje desconto, abatimento, indenização, crédito, reembolso ou direito de rescisão sem ônus do FRANQUEADO.
+(c) a O-LEVEL poderá **modificar, suspender ou descontinuar** a funcionalidade de feedback nas mesmas condições e com os mesmos deveres de informação e direitos aplicáveis à integração via API não oficial (Cláusulas 3.2.2, 3.2.2-A e 3.2.4), observado que a descontinuidade por conveniência exclusiva da O-LEVEL será precedida de comunicação na forma da Cláusula 3.2.2.
 
 3.5. **AUTOMAÇÕES PERSONALIZADAS E CUSTOMIZAÇÕES DE SOFTWARE.** Qualquer demanda por automações personalizadas ou customizações específicas do SOFTWARE solicitada pelo FRANQUEADO estará sujeita a:
 
@@ -212,23 +238,33 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 **6.1.1.** **CATEGORIA MÉDIA/GRANDE**: mensalidade fixa de **R$ 390,00 (trezentos e noventa reais)**, independentemente do volume de Contratos Emitidos no mês.
 
-**6.1.2.** **CATEGORIA PEQUENA**: cobrança variável de **R$ 18,90 (dezoito reais e noventa centavos)** por Contrato Emitido no mês, com apuração acumulativa ao longo do período de referência e fechamento no último dia de cada mês calendário.
+**6.1.2.** **CATEGORIA PEQUENA**: cobrança variável de **R$ 18,90 (dezoito reais e noventa centavos)** por **Contrato Emitido e Aprovado** no mês, com apuração acumulativa ao longo do período de referência e fechamento no último dia de cada mês calendário.
 
-6.2. **REGRA DE UPGRADE AUTOMÁTICO.** Caso o FRANQUEADO enquadrado na CATEGORIA PEQUENA atinja **20 (vinte) ou mais Contratos Emitidos em um mesmo mês de referência**, será **automaticamente reclassificado como CATEGORIA MÉDIA/GRANDE a partir do primeiro dia do mês subsequente**, passando a pagar a mensalidade fixa de R$ 390,00 (trezentos e noventa reais). A reclassificação independe de notificação prévia, sendo apurada exclusivamente com base no audit trail imutável do SOFTWARE (Cláusula 6.9).
+**6.1.3.** **POLÍTICA DE CANCELAMENTO DE CONTRATOS E BASE DE FATURAMENTO.** A cobrança incide **exclusivamente sobre os Contratos Emitidos e Aprovados** (Cláusula 1.1.3-A), observadas as seguintes regras de cancelamento:
+
+(a) **Janela de cancelamento direto (até 7 dias):** o FRANQUEADO poderá cancelar, **diretamente pelo SOFTWARE**, qualquer Contrato Emitido **no prazo de até 7 (sete) dias corridos contados de sua geração**. O contrato cancelado nesse prazo **não integra a base de faturamento**;
+
+(b) **Cancelamento via suporte (após 7 dias):** decorrido o prazo de 7 (sete) dias da geração, o cancelamento **somente poderá ser solicitado mediante requerimento ao suporte** da O-LEVEL (Cláusula 4ª), que o processará **desde que a solicitação seja feita antes da data do evento**;
+
+(c) **Vedação de cancelamento no dia ou após o evento:** **não é possível**, em nenhuma hipótese, cancelar Contrato Emitido **na data do evento ou em data posterior** à sua realização, considerando-se o contrato, nesse caso, definitivamente Aprovado e faturável;
+
+(d) **Efeito no fechamento mensal:** Contratos Emitidos cuja janela de cancelamento ainda esteja em curso na data do fechamento (Cláusula 6.4) serão apurados como Aprovados; eventual cancelamento válido posterior, realizado dentro da janela de 7 (sete) dias ou deferido pelo suporte antes do evento, será objeto de **crédito na fatura subsequente**, vedado pagamento em dinheiro.
+
+6.2. **REGRA DE UPGRADE AUTOMÁTICO.** Caso o FRANQUEADO enquadrado na CATEGORIA PEQUENA atinja **20 (vinte) ou mais Contratos Emitidos e Aprovados em um mês de referência**, será **automaticamente reclassificado como CATEGORIA MÉDIA/GRANDE no próprio mês de referência em que ultrapassar o 20º (vigésimo) Contrato Emitido e Aprovado**, passando a ser devida, **em relação a esse mesmo mês**, a mensalidade fixa de R$ 390,00 (trezentos e noventa reais) **em substituição à cobrança variável**, com **vencimento no dia 08 (oito) do mês subsequente**, nos termos da Cláusula 6.4. A reclassificação independe de notificação prévia, sendo apurada exclusivamente com base no audit trail imutável do SOFTWARE (Cláusula 6.9).
 
 6.3. **REGRA DE DOWNGRADE (CARÊNCIA).** O FRANQUEADO enquadrado na CATEGORIA MÉDIA/GRANDE somente poderá retornar à CATEGORIA PEQUENA após cumprir, **cumulativamente**:
 
-(a) **2 (dois) meses consecutivos** com **menos de 20 (vinte) Contratos Emitidos por mês**, contados a partir do mês calendário subsequente ao último mês em que tenha atingido 20 ou mais Contratos Emitidos;
+(a) **1 (um) mês** com **menos de 20 (vinte) Contratos Emitidos e Aprovados**, contado a partir do mês calendário subsequente ao último mês em que tenha atingido 20 ou mais Contratos Emitidos e Aprovados;
 
 (b) **manifestação formal por escrito** dirigida à O-LEVEL, solicitando a reclassificação;
 
 (c) inexistência de débitos vencidos com a O-LEVEL.
 
-**6.3.1.** Cumpridos os requisitos acima, o downgrade produzirá efeitos a partir do mês calendário subsequente ao deferimento formal pela O-LEVEL, que ocorrerá em até **10 (dez) dias úteis** após a solicitação.
+**6.3.1.** Cumpridos os requisitos acima, o downgrade produzirá efeitos **a partir do mês calendário subsequente ao mês de carência da alínea (a)**, desde que a solicitação da alínea (b) tenha sido apresentada até o término daquele mês. A O-LEVEL deferirá a reclassificação em até **10 (dez) dias úteis** da solicitação, importando o silêncio, nesse prazo, em **deferimento tácito**. O deferimento formal não poderá postergar os efeitos do downgrade para além do mês subsequente ao da carência, em simetria com a imediatidade do upgrade (Cláusula 6.2).
 
-**6.3.2.** Para fins de eliminação de dúvida: durante todo o período de carência de 2 (dois) meses, o FRANQUEADO permanece classificado como CATEGORIA MÉDIA/GRANDE e deverá pagar a mensalidade fixa de R$ 390,00, ainda que tenha processado apenas 1 (um) Contrato Emitido ou nenhum no mês.
+**6.3.2.** Para fins de eliminação de dúvida: durante o período de carência de 1 (um) mês, o FRANQUEADO permanece classificado como CATEGORIA MÉDIA/GRANDE e deverá pagar a mensalidade fixa de R$ 390,00, ainda que tenha processado apenas 1 (um) Contrato Emitido e Aprovado ou nenhum no mês.
 
-6.4. **APURAÇÃO, FECHAMENTO E FATURAMENTO.** A apuração mensal será realizada pela O-LEVEL com base no audit trail imutável do SOFTWARE, observado o conceito de "Contrato Emitido" definido na Cláusula 1.1.3. **No dia 1º (primeiro) de cada mês** procede-se à **contabilização e ao fechamento do ciclo imediatamente anterior** (mês de referência encerrado no último dia do mês anterior). Realizado o fechamento, a O-LEVEL emitirá a nota fiscal e o respectivo boleto bancário / link de pagamento, com **vencimento no dia 08 (oito) do mesmo mês**.
+6.4. **APURAÇÃO, FECHAMENTO E FATURAMENTO.** A apuração mensal será realizada pela O-LEVEL com base no audit trail imutável do SOFTWARE, observado o conceito de **Contrato Emitido e Aprovado** (Cláusula 1.1.3-A) e a política de cancelamento da Cláusula 6.1.3. **No dia 1º (primeiro) de cada mês** procede-se à **contabilização e ao fechamento do ciclo imediatamente anterior** (mês de referência encerrado no último dia do mês anterior). Realizado o fechamento, a O-LEVEL emitirá a nota fiscal e o respectivo boleto bancário / link de pagamento, com **vencimento no dia 08 (oito) do mesmo mês**.
 
 **6.4.1.** **PRIMEIRA MENSALIDADE.** A primeira mensalidade será cobrada, com vencimento, em **08 de junho de 2026 (08/06/2026)**.
 
@@ -248,9 +284,13 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (e) **a partir do 30º (trigésimo) dia de atraso**, a O-LEVEL poderá **rescindir unilateralmente** este CONTRATO, aplicando-se as consequências da Cláusula 8ª, e poderá **protestar os títulos** e **inscrever o FRANQUEADO nos órgãos de proteção ao crédito**.
 
-6.8. **VEDAÇÃO À COMPENSAÇÃO.** O FRANQUEADO não poderá, em hipótese alguma, compensar valores devidos à O-LEVEL com créditos eventualmente existentes em seu favor, salvo mediante autorização expressa e formal da O-LEVEL.
+6.8. **COMPENSAÇÃO DE VALORES LÍQUIDOS, CERTOS E INCONTROVERSOS.** É facultada a **qualquer das PARTES**, em caráter recíproco, a compensação de valores **líquidos, certos, vencidos e incontroversos** que uma deva à outra em razão deste CONTRATO, nos termos dos arts. 368 e seguintes do Código Civil, mediante comunicação por escrito com o respectivo demonstrativo. Créditos ainda **ilíquidos, controvertidos ou sub judice** não poderão ser objeto de compensação unilateral, dependendo de acordo formal entre as PARTES ou de decisão definitiva. A presente faculdade não autoriza o FRANQUEADO a reter ou suspender pagamento de mensalidades sob alegação de crédito ilíquido ou controverso.
 
-6.9. **AUDIT TRAIL IMUTÁVEL DE CONTRATOS EMITIDOS.** A O-LEVEL manterá, no SOFTWARE EVNTUM, **registro técnico imutável (append-only)** de cada Contrato Emitido, contendo, no mínimo: **(i)** timestamp em UTC com precisão de milissegundos; **(ii)** hash criptográfico do conteúdo (SHA-256 ou superior); **(iii)** identificador único (UUID) do registro; **(iv)** identificação do FRANQUEADO; **(v)** identificação do USUÁRIO autor da operação. Este audit trail constitui **prova oficial e única** para fins de aferição mensal, categorização e faturamento, sendo vedado a qualquer das PARTES contestar a contagem com base em registros próprios ou alegação de divergência operacional.
+6.9. **AUDIT TRAIL IMUTÁVEL DE CONTRATOS EMITIDOS.** A O-LEVEL manterá, no SOFTWARE EVNTUM, **registro técnico imutável (append-only)** de cada Contrato Emitido, contendo, no mínimo: **(i)** timestamp em UTC com precisão de milissegundos; **(ii)** hash criptográfico do conteúdo (SHA-256 ou superior); **(iii)** identificador único (UUID) do registro; **(iv)** identificação do FRANQUEADO; **(v)** identificação do USUÁRIO autor da operação.
+
+**6.9.1.** **VALOR PROBATÓRIO.** Dada a sua natureza técnica íntegra (append-only, encadeamento por hash criptográfico, timestamp e identificador único), o audit trail goza de **presunção relativa de veracidade e exatidão** (*juris tantum*) para fins de aferição mensal, categorização e faturamento, **prevalecendo sobre alegações genéricas** de divergência. **É admitida prova em contrário** pelo FRANQUEADO, a quem incumbe o ônus de demonstrar, por elementos idôneos e específicos, eventual erro, falha técnica ou inconsistência do registro, hipótese em que as PARTES procederão à conciliação dos valores de boa-fé.
+
+**6.9.2.** **ACESSO DO FRANQUEADO AO PRÓPRIO TRAIL.** A O-LEVEL disponibilizará ao FRANQUEADO **acesso de leitura ao audit trail relativo à sua própria unidade** (registros dos seus Contratos Emitidos e respectivos metadados de contagem), por meio do SOFTWARE ou mediante exportação em formato aberto a pedido, viabilizando a conferência da base de faturamento e o exercício do contraditório da Cláusula 6.9.1, vedado o acesso a registros de outros clientes da O-LEVEL.
 
 6.10. **TAXA DE SETUP PARA NOVAS CONTRATAÇÕES A PARTIR DE 01/07/2026.**
 
@@ -260,7 +300,9 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 **6.10.3.** A Taxa de Setup será **cobrada antes da liberação dos acessos** ao SOFTWARE EVNTUM, sendo a inadimplência condição impeditiva da ativação da licença.
 
-**6.10.4.** A Taxa de Setup **não é compensável** com mensalidades, créditos por SLA, ou quaisquer outros valores devidos a qualquer título, e **não é reembolsável** em nenhuma hipótese, inclusive em caso de rescisão antecipada do CONTRATO.
+**6.10.4.** A Taxa de Setup **não é compensável** com mensalidades, créditos por SLA, ou quaisquer outros valores devidos a qualquer título, e **não é reembolsável** quando a rescisão decorrer de iniciativa imotivada do FRANQUEADO ou de justa causa da O-LEVEL imputável ao FRANQUEADO (Cláusula 8.6), dado que remunera os serviços de implantação e configuração já prestados.
+
+**6.10.4.1.** **RESTITUIÇÃO PROPORCIONAL.** Excepcionalmente, a Taxa de Setup será **restituída de forma proporcional** ao período não usufruído do prazo em curso, caso a rescisão decorra de: **(i)** iniciativa imotivada da O-LEVEL (rescisão sem justa causa por ela promovida); ou **(ii)** descontinuidade definitiva do SOFTWARE pela O-LEVEL por sua conveniência exclusiva (Cláusulas 3.2.2 e 16.3). A restituição não é devida quando a rescisão decorrer de iniciativa do FRANQUEADO por fato da Meta (Cláusula 3.2), de extinção da franquia (Cláusula 20-A.6) ou de força maior, hipóteses em que a Taxa de Setup permanece não reembolsável por remunerar implantação efetivamente realizada.
 
 **6.10.5.** O valor da Taxa de Setup será **reajustado anualmente** pelo IPCA, nos termos da Cláusula 6.6.
 
@@ -294,10 +336,10 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 >
 > onde:
 >
-> - **M = média mensal de Contratos Emitidos** pelo FRANQUEADO nos meses já decorridos do período em curso;
+> - **M = média mensal de Contratos Emitidos e Aprovados** pelo FRANQUEADO nos meses já decorridos do período em curso;
 > - **N = número de meses remanescentes** até o termo final do período em curso.
 
-**8.3.1.** **PISO MÍNIMO PARA CATEGORIA PEQUENA.** Caso o FRANQUEADO possua **menos de 3 (três) meses de histórico** de utilização do SOFTWARE, será adotado, para cálculo de "M", o **piso mínimo de 10 (dez) Contratos Emitidos por mês**.
+**8.3.1.** **PISO MÍNIMO PARA CATEGORIA PEQUENA.** Caso o FRANQUEADO possua **menos de 3 (três) meses de histórico** de utilização do SOFTWARE, será adotado, para cálculo de "M", o **piso mínimo de 10 (dez) Contratos Emitidos e Aprovados por mês**.
 
 8.4. **VENCIMENTO E COBRANÇA.** A multa rescisória vence **imediatamente** na data da rescisão, sendo exigível desde logo, sob pena de:
 
@@ -321,7 +363,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (f) multas autônomas da Cláusula 8.7, se aplicáveis.
 
-8.6. **RESCISÃO POR JUSTA CAUSA PELA O-LEVEL - HIPÓTESES E EFEITOS.** A O-LEVEL poderá rescindir o CONTRATO, **de forma imediata, independentemente de aviso prévio ou notificação extrajudicial**, **sem qualquer ônus, indenização ou multa em favor do FRANQUEADO**, mas **com aplicação integral da multa rescisória prevista nas Cláusulas 8.2 ou 8.3 em favor da O-LEVEL**, cumulada com a cobrança integral de mensalidades em aberto, perdas e danos e demais multas autônomas cabíveis, em qualquer das seguintes hipóteses:
+8.6. **RESCISÃO POR JUSTA CAUSA PELA O-LEVEL - HIPÓTESES E EFEITOS.** A O-LEVEL poderá rescindir o CONTRATO, **de forma imediata, independentemente de aviso prévio ou notificação extrajudicial**, **sem qualquer ônus, indenização ou multa rescisória em favor do FRANQUEADO**, em qualquer das seguintes hipóteses:
 
 (a) **inadimplência financeira superior a 15 (quinze) dias** corridos contados do vencimento original, em qualquer obrigação pecuniária;
 
@@ -351,27 +393,49 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 **8.6.1.** Em qualquer das hipóteses acima, a rescisão **opera-se de pleno direito**, mediante simples comunicação por escrito (e-mail registrado), com cessação imediata do acesso ao SOFTWARE em até 5 (cinco) dias úteis, sem prejuízo das obrigações pós-contratuais e das cobranças aplicáveis.
 
-8.7. **MULTAS AUTÔNOMAS POR TENTATIVA OU CONSUMAÇÃO DE ATOS LESIVOS.** Sem prejuízo da multa rescisória e da cobrança de perdas e danos efetivamente apurados, o FRANQUEADO ou seus USUÁRIOS, **independentemente da existência de prejuízo comprovado e da efetiva consumação do ato**, ficam sujeitos às seguintes multas autônomas, aplicáveis cumulativamente em caso de múltiplas hipóteses concorrentes:
+**8.6.2.** **EFEITOS PECUNIÁRIOS DA JUSTA CAUSA.** Operada a rescisão por justa causa da O-LEVEL, esta fará jus à cobrança de: **(i)** mensalidades, repasses e demais valores vencidos e não pagos até a data da rescisão; **(ii)** serviços adicionais (OS, customizações) já executados e não pagos; **(iii)** Taxa de Setup, se ainda devida e não paga; **(iv)** perdas e danos **efetivamente apurados e comprovados** decorrentes da conduta do FRANQUEADO; e **(v)** multas autônomas da Cláusula 8.7, quando cabíveis e na forma ali prevista. **A rescisão por justa causa da O-LEVEL NÃO enseja a cobrança da multa rescisória de saída antecipada das Cláusulas 8.2 e 8.3**, cuja incidência se restringe à hipótese de rescisão imotivada por iniciativa do FRANQUEADO (Cláusula 8.1), a fim de evitar dupla penalização pelo mesmo fato e enriquecimento sem causa (arts. 884 e 122 do Código Civil). A justa causa da O-LEVEL **não confere ao FRANQUEADO** direito a reembolso de valores já pagos pelo período já usufruído.
 
-**(a)** **Violação à Política de Uso Aceitável (Cláusula 11ª)** que não se enquadre nas hipóteses específicas das alíneas seguintes: multa de **R$ 30.000,00 (trinta mil reais)** por evento.
+8.7. **MULTAS AUTÔNOMAS POR TENTATIVA OU CONSUMAÇÃO DE ATOS LESIVOS.** Sem prejuízo da multa rescisória e da cobrança de perdas e danos efetivamente apurados, o FRANQUEADO ou seus USUÁRIOS, **independentemente da existência de prejuízo comprovado e da efetiva consumação do ato**, ficam sujeitos às seguintes multas autônomas, aplicáveis cumulativamente em caso de múltiplas hipóteses concorrentes, observada a regra de tentativa da Cláusula 8.7-A:
 
-**(b)** **Violação de confidencialidade** (Cláusula 12ª): multa de **R$ 50.000,00 (cinquenta mil reais)** por evento, conforme Cláusula 12.5.
+**(a)** **Violação à Política de Uso Aceitável (Cláusula 11ª)** que não se enquadre nas hipóteses específicas das alíneas seguintes: multa de **R$ 7.500,00 (sete mil e quinhentos reais)** por evento.
 
-**(c)** **Engenharia reversa, descompilação ou desofuscação** do SOFTWARE EVNTUM, ou tentativa comprovada de qualquer dessas práticas: multa de **R$ 100.000,00 (cem mil reais) por evento**, cumulada com retirada imediata de acesso, sem prejuízo de medidas cíveis e criminais.
+**(b)** **Violação de confidencialidade** (Cláusula 12ª): multa de **R$ 30.000,00 (trinta mil reais)** por evento, conforme Cláusula 12.5.
 
-**(d)** **Plágio, cópia, reprodução ou distribuição não autorizada**, total ou parcial, do SOFTWARE EVNTUM, suas interfaces, lógica de negócio, modelo de dados, banco de dados estrutural, documentação ou material técnico-comercial: multa de **R$ 150.000,00 (cento e cinquenta mil reais) por evento**, cumulada com adoção de medidas judiciais cíveis e criminais cabíveis, nos termos da Lei n. 9.609/1998 (Lei do Software), art. 12, e da Lei n. 9.610/1998 (Lei de Direitos Autorais).
+**(c)** **Engenharia reversa, descompilação ou desofuscação** do SOFTWARE EVNTUM, ou tentativa comprovada de qualquer dessas práticas: multa de **R$ 40.000,00 (quarenta mil reais) por evento**, cumulada com retirada imediata de acesso, sem prejuízo de medidas cíveis e criminais.
 
-**(e)** **Tentativa ou consumação de acesso não autorizado** a ambientes técnicos da O-LEVEL (servidores, banco de dados, código-fonte, repositórios, sistemas internos): multa de **R$ 80.000,00 (oitenta mil reais) por evento**, cumulada com obrigação de reportar o incidente em até 24 (vinte e quatro) horas e de cooperar integralmente com a investigação.
+**(d)** **Plágio, cópia, reprodução ou distribuição não autorizada**, total ou parcial, do SOFTWARE EVNTUM, suas interfaces, lógica de negócio, modelo de dados, banco de dados estrutural, documentação ou material técnico-comercial: multa de **R$ 60.000,00 (sessenta mil reais) por evento**, cumulada com adoção de medidas judiciais cíveis e criminais cabíveis, nos termos da Lei n. 9.609/1998 (Lei do Software), art. 12, e da Lei n. 9.610/1998 (Lei de Direitos Autorais).
 
-**(f)** **Sublicenciamento, revenda, cessão ou compartilhamento** do SOFTWARE EVNTUM com terceiros não autorizados, em violação às Cláusulas 2.4 e 10.5: multa de **R$ 100.000,00 (cem mil reais) por evento**, cumulada com rescisão imediata nos termos da Cláusula 8.6.
+**(e)** **Tentativa ou consumação de acesso não autorizado** a ambientes técnicos da O-LEVEL (servidores, banco de dados, código-fonte, repositórios, sistemas internos): multa de **R$ 30.000,00 (trinta mil reais) por evento**, cumulada com obrigação de reportar o incidente em até 24 (vinte e quatro) horas e de cooperar integralmente com a investigação.
 
-**(g)** **Uso indevido para fins de concorrência**, incluindo, mas não se limitando a, utilização de dados, aprendizado, conhecimento técnico ou métricas obtidas a partir da plataforma EVNTUM para desenvolver, financiar ou apoiar produto ou serviço concorrente: multa de **R$ 200.000,00 (duzentos mil reais) por evento**, cumulada com rescisão imediata e ajuizamento de ação por concorrência desleal, nos termos da Lei n. 9.279/1996 (Lei da Propriedade Industrial), art. 195.
+**(f)** **Sublicenciamento, revenda, cessão ou compartilhamento** do SOFTWARE EVNTUM com terceiros não autorizados, em violação às Cláusulas 2.4 e 10.5: multa de **R$ 40.000,00 (quarenta mil reais) por evento**, cumulada com rescisão imediata nos termos da Cláusula 8.6.
 
-**8.7.1.** **CUMULATIVIDADE.** As multas previstas nesta Cláusula 8.7 são **cumulativas entre si** quando múltiplas hipóteses se materializarem em um mesmo evento ou em eventos distintos, e são igualmente **cumuláveis com a multa rescisória** das Cláusulas 8.2 e 8.3, bem como com indenização por perdas e danos efetivamente comprovados.
+**(g)** **Uso indevido para fins de concorrência**, assim entendida a utilização de **dados, segredos de negócio, código, modelo de dados ou métricas proprietárias** da plataforma EVNTUM para desenvolver, financiar ou apoiar produto ou serviço concorrente: multa de **R$ 60.000,00 (sessenta mil reais) por evento**, cumulada com rescisão imediata e ajuizamento de ação por concorrência desleal, nos termos da Lei n. 9.279/1996 (Lei da Propriedade Industrial), art. 195. Não se reputa violação a esta alínea o aproveitamento de **conhecimento, experiência ou aprendizado geral** legitimamente adquiridos pelo FRANQUEADO, insuscetíveis de apropriação.
+
+**8.7.1.** **CUMULATIVIDADE, CAP POR EVENTO E CAP AGREGADO DO CONTRATO.** As multas previstas nesta Cláusula 8.7 são **cumulativas entre si** quando múltiplas hipóteses se materializarem em um mesmo Evento (Cláusula 1.1.16) ou em Eventos distintos, observados os limites desta Cláusula. São igualmente **cumuláveis com a indenização por perdas e danos efetivamente comprovados** e, observada a regra de não cumulação da Cláusula 8.7.1-A, com a multa rescisória das Cláusulas 8.2 e 8.3.
+
+(a) **Cap por Evento.** A soma das multas autônomas aplicáveis a um mesmo Evento, na forma da definição da Cláusula 1.1.16, fica limitada a **R$ 80.000,00 (oitenta mil reais)**, valor coincidente com a referência econômica do ativo de propriedade intelectual declarada nos Considerandos e na Cláusula 8.7.6.
+
+(b) **Cap agregado do CONTRATO.** A soma de **todas** as multas autônomas desta Cláusula 8.7 aplicadas ao longo de toda a vigência deste CONTRATO, considerados todos os Eventos somados, fica limitada, em caráter de teto global, a **R$ 160.000,00 (cento e sessenta mil reais)** — equivalente ao dobro da referência econômica do ativo de propriedade intelectual —, reajustado anualmente pelo IPCA na forma da Cláusula 8.7.2.
+
+(c) **Perdas e danos comprovados.** Os limites das alíneas (a) e (b) aplicam-se exclusivamente às multas autônomas (cláusula penal), **não alcançando a apuração e cobrança de perdas e danos efetivamente comprovados** que os excedam, nos termos da Cláusula 8.7.3-A, os quais não se sujeitam a tais tetos.
+
+**8.7.1-A.** **NÃO CUMULAÇÃO ENTRE MULTA RESCISÓRIA E MULTA AUTÔNOMA PELA MESMA CAUSA.** A multa rescisória de saída antecipada (Cláusulas 8.2/8.3) e as multas autônomas desta Cláusula 8.7 têm fatos geradores e finalidades distintos — aquela compensa a frustração da expectativa de vigência mínima na rescisão imotivada do FRANQUEADO; estas reprimem condutas lesivas específicas (obrigações de não-fazer). Para afastar qualquer bis in idem: **(i)** na rescisão por justa causa da O-LEVEL (Cláusula 8.6), não incide a multa rescisória (Cláusula 8.6.2), de modo que apenas as multas autônomas cabíveis e as perdas e danos comprovados são exigíveis; **(ii)** caso, em uma mesma relação, concorram rescisão imotivada do FRANQUEADO (que enseja a multa rescisória) e conduta lesiva autônoma derivada do **mesmo fato gerador**, não haverá cumulação, prevalecendo a penalidade de **maior valor**, sem prejuízo das perdas e danos efetivamente comprovados; **(iii)** a cumulação somente se dará quando as penalidades decorrerem de **fatos geradores distintos**.
 
 **8.7.2.** **REAJUSTE.** Os valores nominais das multas autônomas previstas nesta Cláusula serão **reajustados anualmente pelo IPCA**, a contar da data de assinatura do CONTRATO.
 
-**8.7.3.** **INDEPENDÊNCIA DE PREJUÍZO.** Reconhecem as PARTES, em ambiente paritário B2B, que as multas autônomas têm natureza **não meramente compensatória**, mas também **dissuasória e punitiva**, sendo devidas independentemente da efetiva comprovação de prejuízo, observado o art. 412 do Código Civil e a liberdade contratual prevista na Lei n. 13.874/2019.
+**8.7.3.** **INDEPENDÊNCIA DE PREJUÍZO.** Reconhecem as PARTES, em ambiente paritário B2B, que as multas autônomas têm natureza de **cláusula penal de função compensatória e dissuasória**, sendo devidas independentemente da efetiva comprovação de prejuízo (art. 416, caput, do Código Civil), observados o limite do art. 412 do Código Civil, a faculdade de redução equitativa do art. 413 do Código Civil (Cláusula 8.7.6.1) e a liberdade contratual prevista na Lei n. 13.874/2019.
+
+**8.7.3-A.** **NATUREZA E INDENIZAÇÃO SUPLEMENTAR.** As multas desta Cláusula têm natureza de **cláusula penal de caráter moratório e dissuasório em relação a obrigações de não-fazer**, **não substituindo a obrigação principal nem configurando a alternativa do art. 410 do Código Civil**. As PARTES **estipulam expressamente**, nos termos do **art. 416, parágrafo único, do Código Civil**, que a multa pactuada representa o **mínimo indenizatório**, sendo a O-LEVEL credora da **indenização suplementar** pelo que exceder, mediante comprovação do dano.
+
+**8.7.4.** **CIÊNCIA DAS MULTAS E RECOMENDAÇÃO DE RESERVA FINANCEIRA.** O FRANQUEADO **declara expressa ciência** de todas as multas previstas nesta Cláusula 8.7 e de sua cumulatividade, bem como das hipóteses de responsabilização que possam ensejá-las. A O-LEVEL **recomenda** que o FRANQUEADO mantenha **reserva financeira e/ou apólice de seguro** compatíveis para fazer frente a eventuais multas, indenizações e responsabilidades aqui pactuadas, em especial as decorrentes de incidentes de segurança e **vazamento de Dados Pessoais imputáveis ao próprio FRANQUEADO** na qualidade de Controlador.
+
+**8.7.5.** **VAZAMENTO DE DADOS IMPUTÁVEL AO FRANQUEADO.** O vazamento, exposição ou tratamento indevido de Dados Pessoais **decorrente de culpa ou dolo do FRANQUEADO** (incluindo, sem limitação: comprometimento de credenciais sem 2FA na forma da Cláusula 11.4, instruções ilegais à Operadora, ausência de base legal válida ou conteúdo ilícito) **não enseja multa autônoma de valor fixo**, mas sujeita o FRANQUEADO à **indenização reversa integral** (Cláusula 14.5) e à reparação pelo **valor efetivamente apurado** das perdas, sanções, custas e honorários suportados pela O-LEVEL, nos termos das Cláusulas 14.6.2 e 14.6.4, sem prejuízo das demais hipóteses de rescisão por justa causa.
+
+**8.7.6.** **ANCORAGEM NO ATIVO DE PROPRIEDADE INTELECTUAL E CRITÉRIOS DE PROPORCIONALIDADE.** As PARTES reconhecem que as multas autônomas desta Cláusula têm por referência o **valor do ativo de propriedade intelectual** representado pelo SOFTWARE EVNTUM — **estimado em R$ 80.000,00 (oitenta mil reais)** a título de desenvolvimento (mão de obra de desenvolvedores e acervo de informações e know-how) — e o custo de seu desenvolvimento e substituição, **e não o valor da mensalidade**, dada a natureza dos bens jurídicos protegidos (código-fonte, segredo de negócio, integridade da plataforma e leal concorrência). Para fins de aferição da proporcionalidade das multas, as PARTES estabelecem, como **parâmetros objetivos** livremente pactuados, **(i)** o valor de referência do ativo de propriedade intelectual acima; **(ii)** a gravidade e a reprovabilidade da conduta; **(iii)** a natureza dissuasória da cláusula penal sobre obrigações de não-fazer; e **(iv)** o porte empresarial das PARTES, em relação paritária B2B (art. 421-A do Código Civil; Lei n. 13.874/2019).
+
+**8.7.6.1.** As PARTES **reconhecem expressamente** que o art. 413 do Código Civil é norma de **ordem pública** e que ao juízo é facultado, de ofício, reduzir equitativamente a penalidade que se mostre manifestamente excessiva ou cujo cumprimento parcial da obrigação o justifique. **Nada nesta Cláusula deve ser interpretado como renúncia, afastamento ou limitação da faculdade judicial de redução** prevista no art. 413 do Código Civil. As PARTES apenas requerem, sem caráter vinculante ao julgador, que eventual redução considere os parâmetros objetivos do item 8.7.6 e **preserve a independência e a exigibilidade das demais multas** não atingidas pela decisão.
+
+**8.7-A.** **TENTATIVA.** Nas hipóteses em que esta Cláusula 8.7 admite punição da **tentativa**, a multa aplicável à tentativa **comprovada e não consumada** corresponde a **50% (cinquenta por cento)** do valor previsto para a conduta consumada, sem prejuízo das perdas e danos efetivamente comprovados e das demais medidas cabíveis.
 
 8.8. **EFEITOS DA RESCISÃO.** Operada a rescisão por qualquer motivo, a O-LEVEL:
 
@@ -401,7 +465,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (f) manter sigilo das informações confidenciais do FRANQUEADO;
 
-(g) **manter backup diário automático** dos Dados da CONTRATANTE, com retenção mínima de **30 (trinta) dias**.
+(g) **manter rotina de backup automático** dos Dados da CONTRATANTE, observada a seguinte política de retenção em camadas: **(i) backups diários**, retidos pelos **últimos 7 (sete) dias**; **(ii) backups semanais**, retidos pelas **últimas 4 (quatro) semanas**; **(iii) backups mensais**, retidos pelos **últimos 12 (doze) meses**; e **(iv) backups anuais**, retidos pelos **últimos 5 (cinco) anos**.
 
 9.2. **OBRIGAÇÕES DO FRANQUEADO.** São obrigações do FRANQUEADO:
 
@@ -435,7 +499,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (b) o FRANQUEADO pagador **receberá apenas direito de uso**, não exclusivo, intransferível e limitado ao prazo de vigência deste CONTRATO;
 
-(c) a O-LEVEL poderá **incorporar tais customizações ao SOFTWARE-padrão** e disponibilizá-las a outros clientes, sem que isso enseje qualquer pagamento, indenização ou exclusividade ao FRANQUEADO.
+(c) a O-LEVEL poderá **incorporar tais customizações ao SOFTWARE-padrão** e disponibilizá-las a outros clientes, sem que isso enseje pagamento, indenização ou exclusividade ao FRANQUEADO, **ressalvado que a O-LEVEL não disponibilizará a customização específica custeada pelo FRANQUEADO a concorrente direto deste — assim identificado e comunicado por escrito no ato da respectiva OS — pelo prazo de 12 (doze) meses contados da entrega, salvo mediante anuência por escrito do FRANQUEADO ou compensação acordada entre as PARTES.**
 
 10.4. **MARCAS.** Cada PARTE permanecerá proprietária exclusiva de suas marcas, sendo vedado à outra utilizar tais marcas para qualquer fim sem autorização prévia e por escrito, salvo: **(i)** uso, pela O-LEVEL, da denominação do FRANQUEADO ou da marca "ARQUITETOS DA PIZZA" em material institucional de cases de clientes, mediante prévia aprovação por escrito do FRANQUEADO, vedada divulgação pública de dados financeiros ou estratégicos.
 
@@ -477,7 +541,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 11.2. **DIREITO DE SUSPENSÃO.** A O-LEVEL poderá, **a qualquer tempo e sem aviso prévio**, **suspender o acesso do FRANQUEADO** que viole a AUP, **sem reembolso, abatimento ou indenização**, bastando notificação posterior por escrito justificando a medida.
 
-11.3. **RESPONSABILIDADE EXCLUSIVA.** O FRANQUEADO é **integral e exclusivamente responsável** pelo conteúdo das mensagens enviadas, dados inseridos e usos realizados no SOFTWARE EVNTUM, **isentando a O-LEVEL** de qualquer responsabilidade civil, administrativa ou penal decorrente, **obrigando-se a reembolsar e a manter indene a O-LEVEL** em caso de demandas de terceiros, autoridades públicas ou da Meta/WhatsApp, nos termos da Cláusula 14.5.
+11.3. **RESPONSABILIDADE EXCLUSIVA PELO CONTEÚDO E USO.** O FRANQUEADO é **integral e exclusivamente responsável** pelo **conteúdo das mensagens enviadas, pelos dados que insere e pelos usos que realiza** no SOFTWARE EVNTUM, não respondendo a O-LEVEL pela responsabilidade civil, administrativa ou penal decorrente desses atos do FRANQUEADO, **obrigando-se este a manter indene a O-LEVEL** em caso de demandas de terceiros, autoridades públicas ou da Meta/WhatsApp que tenham por causa o conteúdo, os dados ou o uso de responsabilidade do FRANQUEADO, nos termos da Cláusula 14.5. A presente disposição refere-se à responsabilidade por **atos do FRANQUEADO** e não afasta os deveres e a responsabilidade próprios da O-LEVEL previstos nas Cláusulas 3.2.2-A e 14ª.
 
 11.4. **AUTENTICAÇÃO DE DOIS FATORES (2FA) OBRIGATÓRIA.**
 
@@ -519,7 +583,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 12.4. **PRAZO.** A obrigação de confidencialidade vigorará durante a vigência deste CONTRATO e por **5 (cinco) anos** após seu término, **sendo perpétua para segredos comerciais e código-fonte**.
 
-12.5. **PENALIDADE.** A violação desta Cláusula sujeita o infrator a **multa de R$ 50.000,00 (cinquenta mil reais)** por evento, cumulada com perdas e danos efetivamente apurados, nos termos da Cláusula 8.7(b).
+12.5. **PENALIDADE.** A violação desta Cláusula sujeita o infrator a **multa de R$ 30.000,00 (trinta mil reais)** por evento, cumulada com perdas e danos efetivamente apurados, nos termos da Cláusula 8.7(b).
 
 12.6. **DEVOLUÇÃO/DESTRUIÇÃO.** Encerrado o CONTRATO, a Receptora devolverá ou destruirá todas as Informações Confidenciais em seu poder, mediante declaração formal, no prazo de **30 (trinta) dias**.
 
@@ -533,7 +597,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (b) a **O-LEVEL** atua como **OPERADORA**, realizando o tratamento de Dados Pessoais exclusivamente em nome e segundo as instruções documentadas das Controladoras, nos limites necessários à execução deste CONTRATO.
 
-13.2. **LIMITAÇÃO DE FINALIDADE.** O tratamento de Dados Pessoais pela O-LEVEL tem por **finalidade única, específica e legítima** **viabilizar a execução deste CONTRATO**, nos termos do art. 6º, I, da LGPD, compreendendo: hospedagem, processamento, envio de mensagens, integração com terceiros autorizados, suporte, manutenção e geração de relatórios. **É expressamente vedado** à O-LEVEL utilizar Dados Pessoais para finalidades distintas, em especial: marketing próprio, perfilamento, venda a terceiros, treinamento de modelos de IA com identificadores pessoais, ou qualquer uso não previsto neste CONTRATO.
+13.2. **LIMITAÇÃO DE FINALIDADE.** O tratamento de Dados Pessoais pela O-LEVEL tem por **finalidade específica e legítima** **viabilizar a execução deste CONTRATO**, nos termos do art. 6º, I, da LGPD, compreendendo: hospedagem, processamento, envio de mensagens, integração com terceiros autorizados, suporte, manutenção, geração de relatórios e a **disponibilização da visão consolidada à franqueadora** nos termos e limites da Cláusula 13.10. **É expressamente vedado** à O-LEVEL utilizar Dados Pessoais para finalidades distintas das aqui previstas, em especial: marketing próprio, perfilamento, venda a terceiros, treinamento de modelos de IA com identificadores pessoais, ou qualquer uso não previsto neste CONTRATO.
 
 13.3. **SUBOPERADORES AUTORIZADOS.** O FRANQUEADO autoriza, desde já, que a O-LEVEL se valha dos sub-operadores listados no **Anexo IV**, incluindo, sem limitação:
 
@@ -555,7 +619,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (c) **logs de acesso e auditoria** mantidos por no mínimo **6 (seis) meses**, nos termos do art. 15 do Marco Civil;
 
-(d) **backups regulares automatizados**, conforme Cláusula 9.1(g);
+(d) **backups regulares automatizados**, com retenção em camadas (diários por 7 dias, semanais por 4 semanas, mensais por 12 meses e anuais por 5 anos), conforme Cláusula 9.1(g);
 
 (e) **política formal de senhas** (complexidade mínima, rotação, vedação de reuso);
 
@@ -603,11 +667,13 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 13.10. **VISÃO CONSOLIDADA PELA FRANQUEADORA.**
 
-**13.10.1.** O FRANQUEADO, na qualidade de **Controlador** dos Dados Pessoais inseridos no SOFTWARE, **autoriza expressamente** a O-LEVEL a disponibilizar à franqueadora da rede ARQUITETOS DA PIZZA **acesso de visão consolidada, em modalidade somente leitura**, aos dados operacionais, métricas e indicadores de desempenho de sua unidade, mediante perfil de acesso adequado.
+**13.10.1.** As PARTES reconhecem que a franqueadora da rede ARQUITETOS DA PIZZA terá acesso a **visão consolidada, em modalidade somente leitura**, dos dados operacionais, métricas e indicadores de desempenho da unidade do FRANQUEADO, mediante perfil de acesso adequado. Quanto a esse tratamento de dados consolidados para gestão da rede, **a franqueadora atua como Controladora (ou co-Controladora, em conjunto com o FRANQUEADO)**, por definir, no âmbito da relação de franquia, as finalidades e os meios do uso das informações consolidadas, respondendo pela licitude dessa finalidade própria.
 
-**13.10.2.** O FRANQUEADO declara que tal compartilhamento decorre de sua relação de franquia com a rede ARQUITETOS DA PIZZA e que **lhe compete, na qualidade de Controlador, assegurar a base legal adequada** (art. 7º da LGPD) para o referido compartilhamento, bem como informar os titulares quando exigível, **isentando a O-LEVEL** de qualquer responsabilidade decorrente da ausência ou insuficiência de base legal para esse acesso.
+**13.10.2.** **BASE LEGAL DO COMPARTILHAMENTO.** O compartilhamento de que trata esta Cláusula encontra fundamento, conforme o caso, **(i)** no **legítimo interesse** da rede de franquia na supervisão, padronização e gestão de desempenho de suas unidades (art. 7º, IX, e art. 10 da LGPD), mediante elaboração e documentação do correspondente **teste de balanceamento (LIA)** sob responsabilidade da franqueadora e/ou do FRANQUEADO; e/ou **(ii)** na **execução das obrigações decorrentes da relação de franquia** previstas na Circular de Oferta de Franquia e no contrato de franquia (art. 7º, V, da LGPD). Compete ao FRANQUEADO e à franqueadora, na qualidade de Controladores, assegurar a base legal adequada e informar os titulares quando exigível. A O-LEVEL, na qualidade de Operadora, **não responde pela definição da finalidade nem pela suficiência da base legal** estabelecida pelos Controladores, ressalvados os deveres próprios de Operadora previstos nesta Cláusula 13ª.
 
-**13.10.3.** A O-LEVEL atua, quanto a esse acesso, exclusivamente como **Operadora**, limitando-se a executar a instrução documentada do FRANQUEADO, sem responsabilidade pela finalidade ou pelo uso que a franqueadora faça dos dados consolidados.
+**13.10.3.** A O-LEVEL atua, quanto a esse acesso, na qualidade de **Operadora**, limitando-se a executar instrução documentada dos Controladores (FRANQUEADO e/ou franqueadora), implementando o perfil de acesso somente leitura e as medidas de segurança da Cláusula 13.4, sem responsabilidade pela finalidade ou pelo uso que a franqueadora faça dos dados consolidados.
+
+**13.10.4.** **INSTRUMENTO BACK-TO-BACK FRANQUEADORA-O-LEVEL.** A disponibilização do acesso consolidado à franqueadora será regida por **instrumento próprio entre a O-LEVEL e a franqueadora** (contrato de operador, adendo de tratamento de dados ou cláusulas equivalentes), que reproduza, em regime **back-to-back**, as obrigações de proteção de dados, confidencialidade, segurança da informação, finalidade, comunicação de incidentes e cooperação previstas nesta Cláusula 13ª, observado o art. 39 da LGPD. Enquanto não firmado tal instrumento, a O-LEVEL poderá condicionar ou suspender o referido acesso, sem que isso configure inadimplemento perante o FRANQUEADO.
 
 ---
 
@@ -615,11 +681,13 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 14.1. **EXCLUSÃO DE DANOS INDIRETOS.** **EM NENHUMA HIPÓTESE A O-LEVEL RESPONDERÁ POR DANOS INDIRETOS, LUCROS CESSANTES, PERDA DE CHANCE, PERDA DE OPORTUNIDADE COMERCIAL, PERDA DE RECEITA, DANO REPUTACIONAL, DANO MORAL DE PESSOA JURÍDICA OU QUAISQUER DANOS REMOTOS, AINDA QUE PREVISÍVEIS, INDEPENDENTEMENTE DA NATUREZA DA AÇÃO (CONTRATUAL OU EXTRACONTRATUAL).**
 
-14.2. **CAP GERAL DE RESPONSABILIDADE.** A responsabilidade total e agregada da O-LEVEL perante o FRANQUEADO, por todas as causas somadas, em todo o período de vigência deste CONTRATO, **fica expressamente limitada ao equivalente a 6 (seis) mensalidades efetivamente pagas pelo FRANQUEADO nos 6 (seis) meses anteriores ao fato gerador da responsabilidade**, ressalvado o cap específico LGPD da Cláusula 14.6.
+14.2. **CAP GERAL DE RESPONSABILIDADE.** A responsabilidade total e agregada da O-LEVEL perante o FRANQUEADO, por todas as causas somadas, em todo o período de vigência deste CONTRATO, **fica expressamente limitada ao equivalente a 12 (doze) mensalidades efetivamente pagas pelo FRANQUEADO nos 12 (doze) meses anteriores ao fato gerador da responsabilidade**, ressalvado o cap específico LGPD da Cláusula 14.6.
+
+**14.2.1.** **CAP MAJORADO PARA A OBRIGAÇÃO ESSENCIAL.** Tratando-se de responsabilidade decorrente do descumprimento da **obrigação essencial** de disponibilização do núcleo funcional do SOFTWARE (a plataforma de gestão de eventos propriamente dita, excluídas as integrações de terceiros sujeitas a regime próprio, notadamente a API não oficial do WhatsApp), o limite previsto na Cláusula 14.2 fica majorado para o equivalente a **18 (dezoito) mensalidades** efetivamente pagas nos 18 (dezoito) meses anteriores ao fato gerador, ou ao período integral de vigência se inferior. Este cap majorado reflete o reconhecimento, pelas PARTES, de que a disponibilidade do núcleo funcional é prestação nuclear do CONTRATO (art. 421-A do Código Civil), preservando-se, em todo caso, a exclusão de danos indiretos da Cláusula 14.1.
 
 14.3. **EXCLUSÕES ABSOLUTAS DE RESPONSABILIDADE.** A O-LEVEL **NÃO RESPONDE**, EM HIPÓTESE ALGUMA, POR:
 
-(a) bloqueios, banimentos, suspensões, instabilidades ou descontinuidade da **API NÃO OFICIAL DO WHATSAPP** (Cláusula 3.2);
+(a) bloqueios, banimentos, suspensões, instabilidades ou descontinuidade da **API NÃO OFICIAL DO WHATSAPP** que decorram de ato, política ou decisão da Meta Platforms, Inc., ou de uso indevido do canal pelo FRANQUEADO (Cláusula 3.2), observado, na hipótese de indisponibilidade prolongada imputável à Meta, o procedimento de remediação via suporte da Cláusula 3.2.4;
 
 (b) falhas de conexão de internet do FRANQUEADO;
 
@@ -649,7 +717,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 **14.6.4.** **DIREITO DE REGRESSO.** Caso a O-LEVEL venha a ser autuada diretamente pela ANPD ou condenada em demanda judicial, em razão de violação **decorrente de culpa total ou parcial do FRANQUEADO como Controlador**, fica desde já assegurado à O-LEVEL **amplo direito de regresso** contra o FRANQUEADO, abrangendo: valor da multa, honorários advocatícios, custas, despesas processuais, juros e correção monetária, observada a indenização reversa da Cláusula 14.5.
 
-**14.6.5.** **ARBITRAGEM PARA DISPUTAS LGPD ACIMA DE R$ 100.000,00.** As PARTES poderão, de comum acordo, submeter disputas relacionadas a responsabilidades LGPD com valor controverso superior a **R$ 100.000,00 (cem mil reais)** a procedimento de arbitragem perante a **CAM-CCBC (Centro de Arbitragem e Mediação da Câmara de Comércio Brasil-Canadá)** ou a **CAMARB (Câmara de Mediação e Arbitragem Empresarial - Brasil)**, observado o regulamento da câmara escolhida, com sede em **Curitiba/PR**, em língua portuguesa, aplicando-se a lei brasileira.
+**14.6.5.** **ARBITRAGEM PARA DISPUTAS LGPD ACIMA DE R$ 100.000,00.** As PARTES poderão, de comum acordo, submeter disputas relacionadas a responsabilidades LGPD com valor controverso superior a **R$ 100.000,00 (cem mil reais)** a procedimento de arbitragem perante a **CAM-CCBC (Centro de Arbitragem e Mediação da Câmara de Comércio Brasil-Canadá)** ou a **CAMARB (Câmara de Mediação e Arbitragem Empresarial - Brasil)**, observado o regulamento da câmara escolhida, com sede em **Joinville/SC**, em língua portuguesa, aplicando-se a lei brasileira.
 
 14.7. **SEGUROS (FACULTATIVOS).** A contratação de seguros pelas PARTES é **facultativa**, não constituindo obrigação contratual nem condição de manutenção da licença.
 
@@ -773,7 +841,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 (a) sua relação jurídica com a franqueadora da rede ARQUITETOS DA PIZZA é regida por **Circular de Oferta de Franquia (COF) e contrato de franquia próprios, em conformidade com a Lei n. 13.966/2019**, dos quais tem pleno conhecimento, sendo tal relação estranha a este CONTRATO;
 
-(b) a contratação do SOFTWARE EVNTUM é **prevista e exigida pela franqueadora no âmbito da COF** como condição da operação da unidade franqueada, sendo, ainda assim, firmada diretamente pelo FRANQUEADO com a O-LEVEL; tal exigência **não cria qualquer responsabilidade da O-LEVEL perante a franqueadora ou terceiros**, competindo exclusivamente à franqueadora a transparência dessa exigência e de seus custos na COF, nos termos da Lei n. 13.966/2019;
+(b) a contratação do SOFTWARE EVNTUM é **prevista e exigida pela franqueadora no âmbito da COF** como condição da operação da unidade franqueada, sendo, ainda assim, firmada **diretamente pelo FRANQUEADO com a O-LEVEL, de forma livre, informada e em condições de mercado**, com plena ciência das funcionalidades, dos preços e das alternativas existentes; o FRANQUEADO reconhece que a O-LEVEL fornece o SOFTWARE em **condições comerciais usuais de mercado** e que a exigência de adoção da ferramenta decorre da relação de franquia, e não de imposição da O-LEVEL; tal exigência **não cria qualquer responsabilidade da O-LEVEL perante a franqueadora ou terceiros**, competindo exclusivamente à franqueadora a transparência dessa exigência e de seus custos na COF, nos termos da Lei n. 13.966/2019;
 
 (c) o presente CONTRATO **não conflita** com a COF nem com o contrato de franquia da rede ARQUITETOS DA PIZZA;
 
@@ -783,11 +851,13 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 20-A.6. **EXTINÇÃO DA RELAÇÃO DE FRANQUIA E SEUS EFEITOS NESTE CONTRATO.** Em caso de extinção, rescisão ou término da relação de franquia entre o FRANQUEADO e a rede ARQUITETOS DA PIZZA:
 
-(a) **o presente CONTRATO poderá ser extinto** a partir da data de extinção da relação de franquia, mediante comunicação por escrito do FRANQUEADO à O-LEVEL;
+(a) **o presente CONTRATO poderá ser extinto** a partir da data de extinção da relação de franquia, mediante comunicação por escrito do FRANQUEADO à O-LEVEL, **acompanhada de comprovação** do término da relação de franquia (notificação da franqueadora, distrato, decisão judicial/arbitral ou documento equivalente);
 
 (b) a O-LEVEL não tem qualquer responsabilidade ou interferência na extinção da relação de franquia subjacente;
 
-(c) caso a extinção ocorra antes do termo final do período de vigência em curso, será aplicada **multa rescisória**, conforme Cláusulas 8.2 e 8.3, **a ser suportada exclusivamente pelo FRANQUEADO**, sem prejuízo das demais cobranças previstas na Cláusula 8.5.
+(c) **comprovada a extinção da relação de franquia**, a rescisão deste CONTRATO **NÃO ensejará a multa rescisória das Cláusulas 8.2 e 8.3**, ainda que ocorra antes do termo final do período em curso, dado que este CONTRATO declara a relação de franquia estranha à sua esfera e que a perda da condição de franqueado retira do FRANQUEADO o próprio pressuposto de uso do SOFTWARE; permanecem devidos, contudo, os **valores em aberto** até a data da rescisão (mensalidades, repasses, serviços adicionais já executados e Taxa de Setup, se aplicável), na forma da Cláusula 8.5, alíneas (a) a (d);
+
+(d) a dispensa da multa rescisória prevista na alínea (c) **não se aplica** quando a extinção da franquia decorrer, ela própria, de conduta dolosa do FRANQUEADO destinada a furtar-se às obrigações deste CONTRATO, hipótese em que se observará o regime geral da Cláusula 8ª.
 
 20-A.7. **REGÊNCIA POR LEI DIVERSA DA LEI DE FRANQUIA.** O presente CONTRATO rege-se pelo **Código Civil (Lei n. 10.406/2002)**, pela **Lei do Software (Lei n. 9.609/1998)**, pela **Lei de Direitos Autorais (Lei n. 9.610/1998)**, pelo **Marco Civil da Internet (Lei n. 12.965/2014)**, pela **LGPD (Lei n. 13.709/2018)** e pelas demais normas aplicáveis a contratos empresariais paritários, **não se aplicando, em hipótese alguma, a Lei n. 13.966/2019 (Lei de Franquia)**.
 
@@ -795,7 +865,7 @@ O FRANQUEADO expressamente reconhece, declara ciência e assume **integral e exc
 
 ## CLÁUSULA 21ª - DO FORO
 
-21.1. As PARTES elegem o **foro da Comarca de Curitiba, Estado do Paraná**, como competente para dirimir quaisquer controvérsias decorrentes deste CONTRATO, com renúncia expressa a qualquer outro, por mais privilegiado que seja, na forma do art. 63 do CPC.
+21.1. As PARTES elegem o **foro da Comarca de Joinville, Estado de Santa Catarina**, como competente para dirimir quaisquer controvérsias decorrentes deste CONTRATO, com renúncia expressa a qualquer outro, por mais privilegiado que seja, na forma do art. 63 do CPC.
 
 21.2. A eleição de foro é expressamente reconhecida pelas PARTES como **válida e exequível**, tratando-se de relação empresarial paritária (B2B), não se aplicando o art. 101, I, do CDC.
 
@@ -834,11 +904,11 @@ Cargo: {{representanteCargo}}
 **TESTEMUNHAS:**
 
 1. _________________________________
-  Nome: ___________________________
-   CPF: ___________________________
+  Nome: [NOME]
+   CPF: [CPF]
 2. _________________________________
-  Nome: ___________________________
-   CPF: ___________________________
+  Nome: [NOME]
+   CPF: [CPF]
 
 ---
 
@@ -859,20 +929,22 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 - Status de evento (proposto, confirmado, realizado, cancelado);
 - Geração automática de contratos a partir de templates.
 
-**2.2. Automação de Mensagens via WhatsApp - API Não Oficial**
+**2.2. Automação de Mensagens via WhatsApp - API Não Oficial (padrão) ou Integração Oficial via Kommo (opcional)**
 
 - Disparo de contrato após confirmação do evento;
 - Reconfirmação automática na semana do evento;
 - Notificação de novo evento agendado;
 - Lembretes parametrizáveis.
 
-> **AVISO LEGAL DESTACADO:** A integração via API não oficial está sujeita a bloqueios, banimentos, suspensões, perda total da conta, instabilidades e descontinuidade unilateral pela Meta, com risco operacional **integralmente e exclusivamente** assumido pelo FRANQUEADO, conforme Cláusula 3.2 do CONTRATO. O FRANQUEADO declara-se **plenamente ciente** desses riscos.
+> **AVISO LEGAL DESTACADO:** A integração via API não oficial (modalidade padrão) está sujeita a bloqueios, banimentos, suspensões, perda total da conta, instabilidades e descontinuidade unilateral pela Meta, eventos decorrentes de fatores estranhos ao controle da O-LEVEL, conforme Cláusula 3.2 do CONTRATO. A O-LEVEL obriga-se a empregar melhores esforços e a informar o FRANQUEADO sobre incidentes relevantes (Cláusula 3.2.2-A), comprometendo-se a buscar solução junto ao suporte em caso de indisponibilidade prolongada imputável à Meta (Cláusula 3.2.4). O FRANQUEADO declara-se **plenamente ciente** desses riscos.
+
+> **ALTERNATIVA OFICIAL (OPCIONAL):** o FRANQUEADO poderá optar, **às suas expensas**, pela integração **oficial** via plataforma terceira **Kommo** (WhatsApp Business Platform / Cloud API), nos termos da Cláusula 3.2.3, hipótese em que a O-LEVEL opera o disparo das mensagens por meio dessa integração e não se aplicam os riscos sistêmicos da API não oficial.
 
 **2.3. Pesquisa de Feedback Pós-Evento via WhatsApp**
 
 - Disparo de pesquisas de feedback aos clientes do FRANQUEADO pelo mesmo canal de WhatsApp via API não oficial;
 - Consolidação técnica das respostas no SOFTWARE EVNTUM para fins de relatório;
-- Sujeita aos riscos e isenções da Cláusula 3.2, nos termos da Cláusula 3.4.
+- Sujeita aos riscos e à disciplina de responsabilidade das Cláusulas 3.2 a 3.2.4, nos termos da Cláusula 3.4.
 
 **2.4. Relatórios e Dashboard**
 
@@ -888,7 +960,7 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 **2.6. Audit Trail Imutável**
 
 - Registro append-only de cada Contrato Emitido (timestamp + hash + UUID + FRANQUEADO + USUÁRIO);
-- Prova oficial para aferição de categoria e faturamento (Cláusula 6.9).
+- Presunção relativa de veracidade para aferição de categoria e faturamento, admitida prova em contrário, com acesso de leitura ao FRANQUEADO sobre o próprio trail (Cláusula 6.9).
 
 **2.7. Autenticação de Dois Fatores (2FA)**
 
@@ -940,21 +1012,22 @@ O SOFTWARE "EVNTUM" é plataforma SaaS de gestão de eventos voltada a pizzarias
 
 | Categoria        | Critério                                         | Valor mensal                                 |
 | ---------------- | ------------------------------------------------ | -------------------------------------------- |
-| **Pequena**      | < 20 Contratos Emitidos/mês                      | **R$ 18,90 por Contrato Emitido** (variável) |
-| **Média/Grande** | >= 20 Contratos Emitidos/mês OU opção voluntária | **R$ 390,00/mês** (fee fixo)                 |
+| **Pequena**      | < 20 Contratos Emitidos e Aprovados/mês                      | **R$ 18,90 por Contrato Emitido e Aprovado** (variável) |
+| **Média/Grande** | >= 20 Contratos Emitidos e Aprovados/mês OU opção voluntária | **R$ 390,00/mês** (fee fixo)                 |
 
 
 ## 2. REGRAS DE TRANSIÇÃO
 
-- **Upgrade automático**: ao atingir 20+ Contratos Emitidos em qualquer mês, reclassificação para Média/Grande no mês subsequente.
-- **Downgrade**: requer **2 (dois) meses consecutivos** com < 20 Contratos Emitidos + solicitação formal + ausência de inadimplência.
+- **Upgrade automático**: ao atingir 20+ Contratos Emitidos e Aprovados, reclassificação para Média/Grande **no próprio mês**; mensalidade fixa de R$ 390,00 desse mês vence no dia 08 do mês seguinte (Cláusula 6.4).
+- **Downgrade**: requer **1 (um) mês** com < 20 Contratos Emitidos e Aprovados + solicitação formal + ausência de inadimplência.
+- **Cancelamento de contratos**: até 7 dias da geração pelo próprio SOFTWARE (não faturável); após 7 dias, somente via suporte e antes do evento; vedado cancelar no dia ou após o evento (Cláusula 6.1.3).
 
 ## 3. TAXA DE SETUP PARA NOVAS CONTRATAÇÕES A PARTIR DE 01/07/2026
 
 
 | Item                                               | Valor                                   | Observações                                                                                                |
 | -------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Taxa de Setup** (contratações a partir de 01/07/2026) | **R$ 589,90** (única, não reembolsável) | Cobrada antes da liberação dos acessos. Não compensável com mensalidades. Reajustada anualmente pelo IPCA. |
+| **Taxa de Setup** (contratações a partir de 01/07/2026) | **R$ 589,90** (única) | Cobrada antes da liberação dos acessos. Não compensável com mensalidades. Reajustada anualmente pelo IPCA. Não reembolsável quando a rescisão partir do FRANQUEADO ou for por justa causa da O-LEVEL; **restituível proporcionalmente** se a rescisão partir da O-LEVEL sem justa causa ou por descontinuidade do serviço (Cláusula 6.10.4.1). |
 | **Taxa de Setup** (contratações até 30/06/2026)         | **ISENTA**                              | Aplicável ao FRANQUEADO que assinar o CONTRATO até 30/06/2026.                     |
 
 
@@ -1044,7 +1117,7 @@ SLA de primeira resposta contado dentro do horário de atendimento (08h00 às 18
 
 ## 7. BACKUP E PORTABILIDADE
 
-- **Backup diário automático** pela O-LEVEL, com retenção mínima de **30 (trinta) dias**;
+- **Backup automático** pela O-LEVEL, com política de retenção em camadas: **diários (últimos 7 dias)**, **semanais (últimas 4 semanas)**, **mensais (últimos 12 meses)** e **anuais (últimos 5 anos)**;
 - **Exportação sob demanda durante o CONTRATO**: mediante OS específica, custo a ser definido;
 - **Exportação pós-rescisão**: **60 (sessenta) dias** após a rescisão (Cláusula 8.8(b));
 - **Arquivamento pós-portabilidade**: 90 (noventa) dias adicionais (Cláusula 8.8(c));
@@ -1081,6 +1154,7 @@ SLA de primeira resposta contado dentro do horário de atendimento (08h00 às 18
 | **Cloudflare, Inc.**                            | CDN, WAF e proteção DDoS                                | EUA / Global       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **Google LLC (Google Cloud / Workspace)**       | E-mail corporativo, autenticação, backup secundário     | EUA / Global       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **Meta Platforms, Inc.**                        | API WhatsApp (não oficial)                              | EUA / Global       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
+| **Kommo** (quando eleita a modalidade oficial)  | Integração oficial WhatsApp (Cloud API) — disparo de mensagens | EUA / Global  | Cláusulas Contratuais Padrão / DPA firmado pelo FRANQUEADO — art. 33, LGPD   | **FRANQUEADO** (O-LEVEL transmite dados por instrução)    |
 | **Twilio Inc.**                                 | SMS transacional e API de mensageria                    | EUA                | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **SendGrid (Twilio)**                           | E-mail transacional                                     | EUA                | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
 | **Stripe, Inc.**                                | Processamento de cobrança recorrente (cartão/PIX/boleto) | EUA / Brasil       | Cláusulas Contratuais Padrão (Anexo VI) — art. 33, II, LGPD                  | O-LEVEL                                                   |
@@ -1130,7 +1204,7 @@ Resumo das medidas implementadas e mantidas pela O-LEVEL:
 - Criptografia em trânsito (TLS 1.2+) e em repouso (AES-256);
 - Controle de acesso baseado em perfis (RBAC) com 2FA obrigatório para perfis administrativos da O-LEVEL;
 - Logs de acesso e auditoria (mínimo 6 meses);
-- Backups diários automatizados (retenção 30 dias);
+- Backups automatizados com retenção em camadas (diários 7 dias, semanais 4 semanas, mensais 12 meses, anuais 5 anos);
 - Política formal de senhas;
 - Treinamento periódico anual da equipe;
 - Política de retenção e descarte seguro;
@@ -1173,9 +1247,11 @@ Suporte técnico incluso na LICENÇA, **sem custo adicional**, nos termos da Cl�
 
 **MODALIDADE DE INTEGRAÇÃO COM O WHATSAPP**
 
-A integração com o WhatsApp é realizada **exclusivamente via API NÃO OFICIAL**. O FRANQUEADO declara estar ciente e assumir integralmente todos os riscos da Cláusula 3.2 do CONTRATO.
+A integração com o WhatsApp é realizada, **por padrão, via API NÃO OFICIAL**, disponível ainda, **como alternativa opcional e às expensas do FRANQUEADO**, a integração **oficial via plataforma terceira (Kommo)**, nos termos da Cláusula 3.2.3. O FRANQUEADO declara estar ciente dos riscos da Cláusula 3.2 do CONTRATO, observados o dever de informar da O-LEVEL (Cláusula 3.2.2-A) e o procedimento de remediação via suporte em caso de indisponibilidade prolongada imputável à Meta (Cláusula 3.2.4). **Assinale a modalidade escolhida:**
 
-(X) Declaro ciência e aceito utilizar a API não oficial, assumindo integralmente os riscos da Cláusula 3.2
+( ) **API NÃO OFICIAL (padrão)** — declaro ciência e aceito utilizar a API não oficial, nos termos das Cláusulas 3.2 a 3.2.4, assumindo os riscos descritos.
+
+( ) **INTEGRAÇÃO OFICIAL VIA KOMMO (opcional)** — opto pela integração oficial via Kommo, nos termos da Cláusula 3.2.3, declarando ciência de que **arco com todos os custos** de contratação da Kommo e das tarifas da Meta, cabendo à O-LEVEL a operação do disparo das mensagens.
 
 **DATA DE INÍCIO**: {{dataInicio}}
 
@@ -1189,9 +1265,9 @@ O FRANQUEADO **declara, de forma expressa, livre, informada e inequívoca**, que
 (d) instabilidades, atrasos e falhas de entrega;
 (e) quebra do serviço por mudanças unilaterais do WhatsApp/Meta;
 (f) penalidades de suspensão pela Meta sobre a operação;
-(g) ausência integral de responsabilidade ou ressarcimento por parte da O-LEVEL.
+(g) não responsabilização da O-LEVEL por eventos imputáveis à Meta ou ao uso indevido do canal pelo FRANQUEADO, nos termos da Cláusula 3.2(g).
 
-O FRANQUEADO **renuncia expressamente** a qualquer pretensão de ressarcimento, indenização, abatimento, reembolso, crédito ou rescisão sem ônus em decorrência de tais eventos, declarando-se ciente de que a integração com o WhatsApp é realizada **exclusivamente via API não oficial**.
+O FRANQUEADO declara-se ciente de que a integração com o WhatsApp é realizada, **por padrão, via API não oficial** (disponível a alternativa oficial opcional via Kommo, a suas expensas, Cláusula 3.2.3) e de que, na modalidade padrão, em caso de **indisponibilidade prolongada imputável à Meta**, **deverá acionar o suporte da O-LEVEL**, que empregará melhores esforços técnicos comercialmente razoáveis para, em conjunto, buscar solução, alternativa técnica ou contorno, nos termos da Cláusula 3.2.4, **não havendo, por esse fato, direito a rescisão sem multa, abatimento, reembolso ou indenização**, ressalvada a responsabilidade da O-LEVEL por dolo ou culpa grave (Cláusula 14ª). **O FRANQUEADO não renuncia a direitos por esta declaração**, que tem natureza de ciência informada dos riscos.
 
 **Assinatura específica para esta declaração**:
 
@@ -1205,10 +1281,11 @@ O FRANQUEADO declara que **leu integralmente** o CONTRATO e seus Anexos, **compr
 
 - aos **riscos operacionais** da API não oficial do WhatsApp (Cláusula 3.2);
 - às **dependências de terceiros** (Meta);
-- à **Taxa de Setup** (Cláusula 6.11), se aplicável;
-- à regra de **downgrade com carência de 2 meses** (Cláusula 6.3);
-- ao **audit trail imutável** para contagem de Contratos Emitidos (Cláusula 6.9);
-- à **multa rescisória** em caso de rescisão antecipada (Cláusula 8ª) e às **multas autônomas** (Cláusula 8.7);
+- à **Taxa de Setup** (Cláusula 6.10), se aplicável;
+- à **cobrança exclusivamente sobre Contratos Emitidos e Aprovados** e à **política de cancelamento** (até 7 dias pelo sistema; após 7 dias somente via suporte e antes do evento; vedado no dia ou após o evento) (Cláusulas 1.1.3-A e 6.1.3);
+- à regra de **downgrade com carência de 1 (um) mês** (Cláusula 6.3);
+- ao **audit trail imutável** para contagem de Contratos Emitidos e Aprovados (Cláusula 6.9);
+- à **multa rescisória** em caso de rescisão antecipada (Cláusula 8ª) e às **multas autônomas** (Cláusula 8.7), bem como à **recomendação de manter reserva financeira** para fazer frente a eventuais multas e responsabilidades, em especial por vazamento de dados de sua responsabilidade (Cláusulas 8.7.4 e 8.7.5);
 - à **obrigatoriedade de 2FA** para perfis administrativos (Cláusula 11.4);
 - à **limitação de responsabilidade** da O-LEVEL (Cláusula 14ª), incluindo o **cap específico LGPD** (14.6) e a **indenização reversa** (14.5);
 - aos **papéis LGPD**, atuando como CONTROLADOR dos Dados Pessoais (Cláusula 13ª);
@@ -1270,7 +1347,7 @@ CPF: {{representanteCPF}}
 
 **4.1.** Estas CCPs são regidas pela **lei brasileira**, em especial pela LGPD e demais normas correlatas.
 
-**4.2.** Eventuais litígios entre Exportador e Importador serão submetidos ao **foro da Comarca de Curitiba, Estado do Paraná**, ressalvada a competência da ANPD em matéria administrativa.
+**4.2.** Eventuais litígios entre Exportador e Importador serão submetidos ao **foro da Comarca de Joinville, Estado de Santa Catarina**, ressalvada a competência da ANPD em matéria administrativa.
 
 **4.3.** O Titular conserva o direito de ajuizar ação no foro de seu domicílio no Brasil, nos termos do art. 22 da LGPD c/c Código de Processo Civil.
 
@@ -1303,5 +1380,4 @@ CPF: {{representanteCPF}}
 **8.1.** Estas CCPs vigorarão enquanto perdurar a relação entre Exportador e Importador, sobrevivendo aos efeitos de obrigações de confidencialidade, de segurança, de cooperação com autoridades e de eliminação de dados, pelos prazos legais aplicáveis.
 
 ---
-
 
